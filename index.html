@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet/less" href="bower_components/less/styles.less">
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/less/dist/less.min.js" type="text/javascript"></script>
     <script src="bower_components/less/dist/less.js" type="text/javascript"></script>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
 
     <script src="bower_components/jquery/main.js"></script>
     <script src="bower_components/jquery/jquery-ui-1.9.0.custom.min.js"></script>
@@ -31,26 +32,37 @@
         
     <![endif]-->
     <script type="text/javascript">
-	$(document).ready(function(){
-		$("#featured").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
-	});
-</script>
+        $(document).ready(function() {
+            $("#featured").tabs({
+                fx: {
+                    opacity: "toggle"
+                }
+            }).tabs("rotate", 5000, true);
+        });
+    </script>
 </head>
 
 <body>
-   
- <div class="landing-set">
-       <img class="pre-set" src="bower_components/img/landing.png">
-       <img class="obj1" src="bower_components/img/object/obj1.png">
-       <img class="obj2" src="bower_components/img/object/obj2.png">
-       <img class="obj3" src="bower_components/img/object/obj3.png">
-       
-   </div>
-       
-        
- 
 
-  	
+    <div class="landing-set">
+        <img class="pre-set" src="bower_components/img/landing.png">
+        <img class="obj1" src="bower_components/img/object/obj1.png">
+        <img class="obj2" src="bower_components/img/object/obj2.png">
+        <img class="obj3" src="bower_components/img/object/obj3.png">
+    </div>
+
+
+
+<!--
+    <script>
+        $(document).ready(function() {
+            $(".obj1").addClass("obj1a");
+            $(".obj2").addClass("obj2a");
+            $(".obj3").addClass("obj3a");
+        });
+    </script>
+-->
+
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
