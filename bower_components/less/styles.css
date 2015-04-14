@@ -6,7 +6,12 @@
     More info at: http://lesselements.com
   ---------------------------------------------------*/
 @font-face {
-  font-family: 'Lato', sans-serif;
+  font-family: 'TrashHand';
+  src: url("../fonts/TrashHand.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Open Sans', sans-serif, 'trashhand';
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +19,7 @@
   transition: all 4s ease-in;
 }
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif, 'trashhand';
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
@@ -97,4 +102,156 @@ a:hover {
     bottom: -36px;
     right: 25px;
   }
+}
+.landing {
+  background-size: cover;
+}
+.social-set {
+  float: right;
+  padding-top: 20px;
+}
+.social-set ul {
+  display: block;
+}
+.social-set ul li {
+  display: inline-block;
+}
+.menu-back {
+  background: url("../img/back.png") no-repeat center;
+  background-size: 100% 100%;
+  height: 667px;
+}
+.menu-set {
+  font-family: trashhand;
+  font-size: 35px;
+}
+.menu-set .menu-img {
+  position: absolute;
+  left: 35%;
+}
+.menu-set .menu-img1 {
+  position: absolute;
+  left: 40%;
+}
+.menu-set .menu-img2 {
+  position: absolute;
+  left: 38%;
+}
+.menu-set .menu-img3 {
+  position: absolute;
+  left: 37%;
+}
+.menu-set .menu-img4 {
+  position: absolute;
+  left: 40%;
+}
+.menu-set .menu-img5 {
+  position: absolute;
+  left: 39%;
+}
+.menu-set .menu-img6 {
+  position: absolute;
+  left: 36%;
+}
+.menu-set a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-set ul {
+  text-align: center;
+  list-style: none;
+  padding: 60px 0px 0px;
+}
+.menu-set li {
+  position: relative;
+  cursor: pointer;
+}
+.menu-set li img {
+  opacity: 0;
+  transition: all 2s ease;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  cursor: pointer;
+}
+.menu-set li:hover img {
+  opacity: 1;
+}
+.menu-set .img-li {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 34px;
+}
+.who-set {
+  text-align: center;
+}
+.we-set {
+  padding-top: 20px;
+}
+.we-set p {
+  color: #231f20;
+  line-height: 30px;
+}
+.are-set h1 {
+  color: #F58220;
+  font-family: trashhand;
+  font-size: 120px;
+  width: 100%;
+}
+.right-txt p {
+  padding-top: 84px;
+  color: #231f20;
+}
+.right-set {
+  background: url("../img/bubble.png") no-repeat left top;
+  background-size: 100% 100%;
+  height: 330px;
+  position: relative;
+  left: -90px;
+}
+.right-set .txt-set {
+  width: 756px;
+  position: absolute;
+  left: 160px;
+  top: 40px;
+}
+.right-set .txt-set p {
+  text-align: center;
+  color: #f58220;
+  font-size: 13px;
+  line-height: 22px;
+}
+.content-set {
+  background: url("../img/bubble2.png") no-repeat center center;
+  background-size: 100% 100%;
+  height: 439px;
+  position: relative;
+  bottom: 40px;
+  left: 60px;
+}
+.content-set .content-txt {
+  position: absolute;
+  top: 125px;
+  left: 90px;
+  width: 774px;
+}
+.content-set .content-txt p {
+  text-align: center;
+  color: #f58220;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 100;
+}
+.footer {
+  background: #f58220;
+  height: 50px;
+}
+.footer .foot-set {
+  padding-top: 18px;
+}
+.footer .foot-set p {
+  font-size: 12px;
 }
