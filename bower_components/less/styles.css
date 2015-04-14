@@ -255,3 +255,13 @@ a:hover {
 .footer .foot-set p {
   font-size: 12px;
 }
+img.hello {
+  position: absolute;
+  bottom: 235px;
+  left: 50px;
+}
+.hee {
+  position: absolute;
+  left: 186px;
+  bottom: 260px;
+}
