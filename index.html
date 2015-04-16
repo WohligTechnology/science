@@ -43,7 +43,7 @@
 </head>
 
 <body>
-<div class="section landing" id="homes">
+<div class="section landing" >
     <div class="landing-set">
         <img class="pre-set" src="bower_components/img/landing.png">
         <img class="obj1" src="bower_components/img/object/obj1.png">
@@ -63,9 +63,9 @@
     </script>
 -->
 </div>
-   <div class="section ">
+   <div class="section " id="homes">
       <div class="menu-back">
-      <div class="container menu">
+      <div class="container-fluid menu">
        <div class="row">
            <div class="col-md-6">
                <div class="log-set">
@@ -86,25 +86,31 @@
     
          </div>
                <div class="">
-                   <div class="menu-set">
-                       <ul>
+                   <div class="container menu-set">
+                      <div class="row">
+                          <div class="col-md-3"></div>
+                          <div class="col-md-6">
+                              <ul>
                            <a href="#who"><li>
-                               <img class="menu-img"src="bower_components/img/menu/menu1-1.png">who we are<img src="bower_components/img/menu/menu1-2.png">
+                               <img class="menu-img"src="bower_components/img/menu/menu1-1.png">
+                               who we are
+                               <img src="bower_components/img/menu/menu1-2.png" class="img-pos">
                            </li></a>
                            <a href=""><li>
-                               <img class="menu-img1" src="bower_components/img/menu/menu2-1.png">what we believe<img src="bower_components/img/menu/menu2-2.png">
+                               <img class="menu-img1" src="bower_components/img/menu/menu2-1.png">
+                               what we believe<img src="bower_components/img/menu/menu2-2.png">
                            </li></a>
                            <li>
                                <img class="menu-img2" src="bower_components/img/menu/menu3-1.png">student learning<img src="bower_components/img/menu/menu3-2.png">
                            </li>
                            <li style="padding-left: 36px;">
-                              <img class="menu-img6" src="bower_components/img/menu/menu4-1.png"> professional development<img src="bower_components/img/menu/menu4-2.png">
+                              <img class="menu-img6" src="bower_components/img/menu/menu4-1.png"> professional development<img src="bower_components/img/menu/menu4-2.png" class="pos-img">
                            </li>
                            <li>
-                                 <img class="menu-img3" src="bower_components/img/menu/menu6-1.png">curriculum  <img src="bower_components/img/menu/menu6-2.png">
+                                 <img class="menu-img3" src="bower_components/img/menu/menu6-1.png">curriculum  <img src="bower_components/img/menu/menu6-2.png" class="img-dat">
                            </li>
                            <li style="padding-left: 70px;">
-                              <img class="menu-img4" src="bower_components/img/menu/menu7-1.png"> city as lab <img src="bower_components/img/menu/menu7-2.png">
+                              <img class="menu-img4" src="bower_components/img/menu/menu7-1.png"> city as lab <img src="bower_components/img/menu/menu7-2.png" class="dat-img">
                            </li>
                            <li style="padding-right: 5px;">
                               <img class="menu-img5" src="bower_components/img/menu/menu8-1.png">  stories<img src="bower_components/img/menu/menu8-2.png">
@@ -113,6 +119,11 @@
                                <img class="img-li"src="bower_components/img/menu/menu9.png"> contact
                            </li>
                        </ul>
+                          </div>
+                          <div class="col-md-3"></div>
+                     
+                       
+                        </div>
                    </div>
              
            </div>
@@ -120,9 +131,11 @@
        </div>
    </div>
    <div class="section" id="who">
+<!--
       <div class="who-set">
          <a href="#last"><img src="bower_components/img/down.png"></a> 
       </div>
+-->
       <div class="container">
          <div class="row">
           <div class="we-set">
@@ -199,6 +212,11 @@ A combination of Purvi's passion and energy, and my experience have brought us t
        </div>
    </div>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+   $(window).load(function () {
+    jQuery('.landing').hide(5510);
+} );
+    </script>
 <script>
     
     $(document).ready(function(){
