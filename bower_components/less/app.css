@@ -1,0 +1,243 @@
+/**
+ * Demo Page Styles
+ */
+
+
+
+.ribbon {
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #EB5F5A;
+}
+
+.ribbon a {
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ribbon a:hover {
+    background-color: #d7544f;
+}
+
+
+.description {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.dist {
+    display: block;
+    width: 170px;
+    margin: 20px auto;
+    padding: 10px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #09AE9B;
+    color: #fff;
+}
+
+.dist:hover {
+    background: #099681;
+}
+
+.examplecode {
+    margin: 0 auto 30px;
+}
+
+.examplecode:last-child {
+    margin-bottom: 0;
+}
+
+code {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 12px;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+
+
+
+/**
+ * Slider specific styles
+ */
+
+.slider {
+    position: relative;
+    width: 320px;
+    margin: 0 auto 40px;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.frame {
+    position: relative;
+    width: 270px;
+    /* margin: 0 auto; */
+    font-size: 0;
+    /* line-height: 0; */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.frame li {
+    position: relative;
+    display: inline-table;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 130px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    background: #FFFFFF;
+    color: #fff;
+}
+
+.slides {
+    display: inline-block;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.simple li {
+    width: 270px;
+    margin-right: 10px;
+}
+
+.variablewidth li {
+    width: 280px;
+    margin-right: 10px;
+
+}
+
+.multipleelements li, .multislides li, .ease li {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.simple li:last-child,
+.variablewidth li:last-child,
+.multipleelements li:last-child,
+.multislides li:last-child,
+.ease li:last-child {
+    margin-right: 0;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    display: block;
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+.next svg, .prev svg {
+    width: 25px;
+}
+
+@media screen and (min-width: 640px ) {
+    /**
+     * Demo Page Styles
+     */
+    .examplecode, .frame {
+        width: 580px;
+    }
+
+    table {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    tr {
+        padding: 0;
+    }
+
+    /**
+     * Slider specific styles
+     */
+
+    .slider {
+        width: 640px;
+        margin: 0 auto 0px;
+    }
+
+    .simple li {
+        width: 580px;
+    }
+
+    .variablewidth li {
+        width: 280px;
+        margin-right: 10px;
+    }
+
+    .multipleelements li, .multislides li, .ease li {
+        width: 130px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 980px ) {
+    /**
+     * Demo Page Styles
+     */
+
+    .examplecode {
+        width: 880px;
+    }
+
+    /**
+     * Slider specific styles
+     */
+
+    .slider {
+        width: 100%;
+    
+        background: #fff;
+        padding: 0px 10px 0px 10px;
+}
+
+    .frame {
+        width: 100%;
+    
+        padding: 0px;
+}
+
+    .simple li {
+        width: 880px;
+    }
+
+    .variablewidth li {
+        width: 280px;
+        margin-right: 30px;
+    }
+
+    .multipleelements li, .multislides li, .ease li {
+        width: 205px;
+        margin-right: 20px;
+    }
+}
+.frame p {
+  font-family: open sans;
+  color: #000;
+  font-size: 13px;
+  margin: 8px auto;
+}

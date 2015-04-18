@@ -18,8 +18,11 @@
 
     <script src="bower_components/jquery/main.js"></script>
     <script src="bower_components/jquery/jquery-ui-1.9.0.custom.min.js"></script>
-    <script src="bower_components/jquery/hamburger-menu.js"></script>
+<!--    <script src="bower_components/jquery/hamburger-menu.js"></script>-->
+    <script src="bower_components/jquery/snap.svg-min.js"></script>
 
+    <link rel="stylesheet" href="bower_components/less/app.css">
+    <link rel="stylesheet" href="bower_components/less/menu_bubble.css">
     <link rel="stylesheet" href="bower_components/less/font-awesome.css">
     <link rel="stylesheet" href="bower_components/less/font-awesome.min.css">
     <link rel="stylesheet" href="bower_components/less/animate.css">
@@ -65,20 +68,20 @@
 </div>
    <div class="section " id="homes">
       <div class="menu-back">
-      <div class="container-fluid menu">
+      <div class="container-fluid menus">
        <div class="row">
            <div class="col-md-6">
                <div class="log-set">
-                   <img src="bower_components/img/logo.png">
+                  <a href=""> <img src="bower_components/img/logo.png"></a>
                </div>
               
            </div>
            <div class="col-md-6">
                <div class="social-set">
                    <ul>
-                       <li><img src="bower_components/img/menu/fb.png"></li>
-                       <li><img src="bower_components/img/menu/youtb.png"></li>
-                       <li><img src="bower_components/img/menu/mail.png"></li>
+                      <a href=""> <li><img src="bower_components/img/menu/fb.png"></li></a>
+                       <a href=""> <li><img src="bower_components/img/menu/youtb.png"></li></a>
+                       <a href=""><li><img src="bower_components/img/menu/mail.png"></li></a>
                    </ul>
                </div>
            </div>
@@ -112,9 +115,9 @@
                            <li style="padding-left: 70px;">
                               <img class="menu-img4" src="bower_components/img/menu/menu7-1.png"> city as lab <img src="bower_components/img/menu/menu7-2.png" class="dat-img">
                            </li>
-                           <li style="padding-right: 5px;">
+                           <a href="#stories"><li style="padding-right: 5px;">
                               <img class="menu-img5" src="bower_components/img/menu/menu8-1.png">  stories<img src="bower_components/img/menu/menu8-2.png">
-                           </li>
+                           </li></a>
                            <li style="padding-right: 16px;">
                                <img class="img-li"src="bower_components/img/menu/menu9.png"> contact
                            </li>
@@ -211,7 +214,447 @@ A combination of Purvi's passion and energy, and my experience have brought us t
            </div>
        </div>
    </div>
+   <div class="section stori" id="stories">
+           <div class="menu-wrap">
+				<nav class="menu">
+					<div class="icon-list">
+						<a href="#"><i class=""></i><span>Who We Are</span></a>
+						<a href="#"><i class=""></i><span>What We Beleive</span></a>
+						<a href="#"><i class=""></i><span>Student Learning</span></a>
+						<a href="#"><i class=""></i><span>Professional Development</span></a>
+						<a href="#"><i class=""></i><span>Cirrculum</span></a>
+						<a href="#"><i class=""></i><span>City As Labs</span></a>
+						<a href="#"><i class=""></i><span>Stories</span></a>
+						<a href="#"><i class=""></i><span>Contact</span></a>
+					</div>
+				</nav>
+				<button class="close-button" id="close-button">Close Menu</button>
+				
+				</div>
+<!--   <div class="container">-->
+
+			
+   <div class="line">
+<div class="container">
+   <div class="stori-head">
+    <div class="row">
+        <div class="col-md-4">
+      
+            <button class="menu-button" id="open-button">Open Menu</button>
+        </div>
+        <div class="col-md-5">
+            <div class="head-mid">
+                <img src="bower_components/img/object/stori4.png">
+                <h1>STORIES</h1>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div >
+                <ul id="tabs" >
+                    <li class="active"><a href="#tab1">ALL</li></a>
+                  <li > <a href="#tab2"> Students Workshops</li></a>
+                   <li><a href="#tab3"> Teachers Workshops</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+</div>
+
+
+    </div>
+    <div class="content-wrap">
+    <div class="content">
+<!--
+    <div class="container tab_content" id="tab1" style="display: block;">
+       <div class="">
+        <div class="row">
+           <div class="det-stor">
+            <div class="col-md-3">
+                <div class="left-det text-center">
+                    <img src="bower_components/img/stori1.png">
+                    <h5>Money Sense Programme</h5>
+                    <p>"Not Everybody's going to be an enterpreneur,but everybody should be financially literate.</p>
+                    <a href="" class="">Read more..</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="right-det">
+                    <div class="row">
+                        <div class="col-md-8" style="  border-right-style: dotted;color: grey;border-width: 2px;">
+                            <div class="det-right">
+                                <img src="bower_components/img/stori3.png">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                             <div class="det-right">
+                                 <img src="bower_components/img/stori2.png">
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="txt-det">
+                                <h5>English Reading Programme</h5>
+                                <p>Reniscinece education is the pedagogy for this exciting project.We Design and deliver the actual lessons from four studios that were specifically built for the Virtual Classroom Program.</p>
+                                  <a href="" class="pull-right">Read more..</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+                <div class="row ">
+           <div class="det-stor">
+          
+            <div class="col-md-9">
+                <div class="right-det">
+                    <div class="row">
+                        <div class="col-md-8" style="  border-right-style: dotted;color: grey;border-width: 2px;">
+                            <div class="det-right">
+                                <img src="bower_components/img/stori3.png">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                             <div class="det-right">
+                                 <img src="bower_components/img/stori2.png">
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="txt-det">
+                                <h5>English Reading Programme</h5>
+                                <p>Reniscinece education is the pedagogy for this exciting project.We Design and deliver the actual lessons from four studios that were specifically built for the Virtual Classroom Program.</p>
+                                  <a href="" class="pull-right">Read more..</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+              <div class="col-md-3">
+                <div class="left-det text-center">
+                    <img src="bower_components/img/stori1.png">
+                    <h5>Money Sense Programme</h5>
+                    <p>"Not Everybody's going to be an enterpreneur,but everybody should be financially literate.</p>
+                    <a href="" class="">Read more..</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+     <div class="container tab_content" id="tab2">
+       <div class="">
+        <div class="row">
+           <div class="det-stor">
+            <div class="col-md-3">
+                <div class="left-det text-center">
+                    <img src="bower_components/img/stori1.png">
+                    <h5>Money Sense Programme</h5>
+                    <p>"Not Everybody's going to be an enterpreneur,but everybody should be financially literate.</p>
+                    <a href="" class="">Read more..</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="right-det">
+                    <div class="row">
+                        <div class="col-md-8" style="  border-right-style: dotted;color: grey;border-width: 2px;">
+                            <div class="det-right">
+                                <img src="bower_components/img/stori3.png">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                             <div class="det-right">
+                                 <img src="bower_components/img/stori2.png">
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="txt-det">
+                                <h5>English Reading Programme</h5>
+                                <p>Reniscinece education is the pedagogy for this exciting project.We Design and deliver the actual lessons from four studios that were specifically built for the Virtual Classroom Program.</p>
+                                  <a href="" class="pull-right">Read more..</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+                <div class="row ">
+           <div class="det-stor">
+          
+            <div class="col-md-9">
+                <div class="right-det">
+                    <div class="row">
+                        <div class="col-md-8" style="  border-right-style: dotted;color: grey;border-width: 2px;">
+                            <div class="det-right">
+                                <img src="bower_components/img/stori3.png">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                             <div class="det-right">
+                                 <img src="bower_components/img/stori2.png">
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="txt-det">
+                                <h5>English Reading Programme</h5>
+                                <p>Reniscinece education is the pedagogy for this exciting project.We Design and deliver the actual lessons from four studios that were specifically built for the Virtual Classroom Program.</p>
+                                  <a href="" class="pull-right">Read more..</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+              <div class="col-md-3">
+                <div class="left-det text-center">
+                    <img src="bower_components/img/stori1.png">
+                    <h5>Money Sense Programme</h5>
+                    <p>"Not Everybody's going to be an enterpreneur,but everybody should be financially literate.</p>
+                    <a href="" class="">Read more..</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container tab_content" id="tab3">
+       <div class="">
+        <div class="row">
+           <div class="det-stor">
+            <div class="col-md-3">
+                <div class="left-det text-center">
+                    <img src="bower_components/img/stori1.png">
+                    <h5>Money Sense Programme</h5>
+                    <p>"Not Everybody's going to be an enterpreneur,but everybody should be financially literate.</p>
+                    <a href="" class="">Read more..</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="right-det">
+                    <div class="row">
+                        <div class="col-md-8" style="  border-right-style: dotted;color: grey;border-width: 2px;">
+                            <div class="det-right">
+                                <img src="bower_components/img/stori3.png">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                             <div class="det-right">
+                                 <img src="bower_components/img/stori2.png">
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="txt-det">
+                                <h5>English Reading Programme</h5>
+                                <p>Reniscinece education is the pedagogy for this exciting project.We Design and deliver the actual lessons from four studios that were specifically built for the Virtual Classroom Program.</p>
+                                  <a href="" class="pull-right">Read more..</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+                <div class="row ">
+           <div class="det-stor">
+          
+            <div class="col-md-9">
+                <div class="right-det">
+                    <div class="row">
+                        <div class="col-md-8" style="  border-right-style: dotted;color: grey;border-width: 2px;">
+                            <div class="det-right">
+                                <img src="bower_components/img/stori3.png">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                             <div class="det-right">
+                                 <img src="bower_components/img/stori2.png">
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="txt-det">
+                                <h5>English Reading Programme</h5>
+                                <p>Reniscinece education is the pedagogy for this exciting project.We Design and deliver the actual lessons from four studios that were specifically built for the Virtual Classroom Program.</p>
+                                  <a href="" class="pull-right">Read more..</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+              <div class="col-md-3">
+                <div class="left-det text-center">
+                    <img src="bower_components/img/stori1.png">
+                    <h5>Money Sense Programme</h5>
+                    <p>"Not Everybody's going to be an enterpreneur,but everybody should be financially literate.</p>
+                    <a href="" class="">Read more..</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+-->
+    <div class="container read-set ">
+        <div class="slider-stor ">
+        <div class="row">
+        <div class="col-md-12">
+                 <div class="sum">
+                 <h2>Money Sense Programme</h2>
+                 <img class="pull-right sum-img" src="bower_components/img/close.png">
+                 </div>
+                  <div class="slider js_variablewidth variablewidth">
+                <div class="frame js_frame">
+                    <ul class="slides js_slides">
+                        <li class="js_slide" style="text-align:center;width: auto;height: 312px;">
+                            <img src="bower_components/img/stor1.png">
+                            <p>visit to RBI</p>
+                        </li>
+                        <li class="js_slide" style="text-align:center;width: auto;height: 312px;">
+                            
+                             <img src="bower_components/img/stori2.png">
+                             <p>visit to RBI</p>
+                        </li>
+                        <li class="js_slide" style="text-align:center;width: auto;height: 312px;">
+                             <img src="bower_components/img/stori3.png">
+                             <p>visit to RBI</p>
+                        </li>
+                        <li class="js_slide" style="text-align:center;width: auto;height: 312px;">
+                            <img src="bower_components/img/stor1.png">
+                            <p>visit to RBI</p>
+                        </li>
+                        <li class="js_slide" style="text-align:center;width: auto;height: 312px;">
+                            
+                             <img src="bower_components/img/stori2.png">
+                             <p>visit to RBI</p>
+                        </li>
+                        <li class="js_slide" style="text-align:center;width: auto;height: 312px;">
+                             <img src="bower_components/img/stori3.png">
+                             <p>visit to RBI</p>
+                        </li>
+                        <li class="js_slide" style="text-align:center;width: auto;height: 312px;">
+                            
+                             <img src="bower_components/img/stori2.png">
+                             <p>visit to RBI</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <span class="js_prev prev">
+                   <img src="bower_components/img/right.png">
+                </span>
+
+                <span class="js_next next">
+                    <img src="bower_components/img/left.png">
+                </span>
+            </div>
+
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="det-cont">
+                    <p>“Not everybody's going to be an entrepreneur, but everybody should be financially literate. 
+
+Financial literacy is a base requirement like spelling or reading or something of the sort that 
+
+everybody should acquire at any early age. The financial habits you develop when you are 
+
+young are going to go with you into your adulthood. But you can't be an entrepreneur unless 
+
+you're financially literate.” – Warren Buffett</p><br>
+               <p>Inspired by Mr. Buffett and his ‘Secret Millionaire’s Club,’ Reniscience Education offers a 
+
+semester long financial literacy program called Money$en$e for 7th and 8th standard 
+
+students. This program has four modules that focus on:</p>
+               <p>1. Overview of money</p>
+               <p>2. Understanding personal finances</p>
+               <p>3. Business and entrepreneurship</p>
+               <p>4. Banking, credit cards and investing</p><br>
+               <p>Using a combination of field trips, project-based learning, videos, workbooks and several experiential 
+
+activities, the lessons are specifically designed for this age group. Students are provided with an 
+
+opportunity to analyze their own finances, create budgets, pitch a business idea to win seed funding 
+
+from Reniscience Education and then implement their business ideas to earn profit. They visit the RBI 
+
+monetary museum in Mumbai, interview their parents, apply math concepts learned in class, discuss big 
+
+ideas like integrity and debt; in the process they develop key 21st century skills of critical thinking, collaboration, creativity and managing complexity.</p><br>
+               <p>To find out how you can bring this important and engaging financial literacy program to you school, drop</p>
+               <p>us an email at <span style="color:#F58220">reniscienceeducation@gmail.com</span> or use the contact us page.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/jquery/jquery.lory.min.js"></script>
+    <script src="bower_components/jquery/classie.js"></script>
+    <script src="bower_components/jquery/main4.js"></script>
+    <script>
+        'use strict';
+
+        document.addEventListener('DOMContentLoaded', function () {
+           
+            var variableWidth    = document.querySelector('.js_variablewidth');
+            lory(variableWidth, {
+                rewind: true
+            });
+        });
+    </script>
+    <script>
+
+$(document).ready(function(){
+    //  When user clicks on tab, this code will be executed
+    $("#tabs li").click(function() {
+        //  First remove class "active" from currently active tab
+        $("#tabs li").removeClass('active');
+ 
+        //  Now add class "active" to the selected/clicked tab
+        $(this).addClass("active");
+ 
+        //  Hide all tab content
+        $(".tab_content").hide();
+ 
+        //  Here we get the href value of the selected tab
+        var selected_tab = $(this).find("a").attr("href");
+ 
+        //  Show the selected tab content
+        $(selected_tab).fadeIn();
+ 
+        //  At the end, we add return false so that the click on the link is not executed
+        return false;
+    });
+});
+    </script>
     <script>
    $(window).load(function () {
     jQuery('.landing').hide(5510);
