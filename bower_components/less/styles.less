@@ -458,6 +458,7 @@ img.hello {
             font-size: 11px;
             text-decoration: none;
             padding-left: 136px;
+            cursor: pointer;
         }
     }
 }
@@ -502,28 +503,93 @@ img.hello {
 }
 
 #tabs li.active a:hover { text-decoration: none; }
+
 .read-set {
-   padding: 24px;
-  background: #e6e7e8;
-  height: auto;
+    padding: 24px;
+    background: #e6e7e8;
+    height: auto;
 }
+
 .slider-stor {
     h2 {
-  color: #000;
-  font-weight: bold;
-  font-size: 14px;
-  text-align: center;
-}
+        color: #000;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+    }
+
     .sum-img {
-  position: relative;
-  bottom: 50px;
+        position: relative;
+        bottom: 50px;
+        cursor: pointer;
+    }
+
+    .det-cont {
+        padding-top: 20px;
+
+        p {
+            color: @col;
+            font-size: 13px;
+            margin: 0px 10px;
+        }
+    }
 }
-  .det-cont {
-  padding-top: 20px;
-      p{
-      color:@col;
-          font-size: 13px;
-  margin: 0px 10px;
-      }
-}  
+
+.beleive {
+    .we-head h1 {
+        color: @text;
+        font-family: trashhand;
+        font-size: 100px;
+        padding-top: 25px;
+    }
+
+    .we-det { height: 432px; }
+
+    .we-pic {
+        position: absolute;
+        left: 0px;
+        width: 100%;
+
+        img { width: 100%; }
+    }
+
+    .we-txt {
+        margin: 0px 122px 0px 0px;
+        height: 432px;
+        overflow-y: scroll;
+        overflow: hidden;
+
+        p {
+            color: @col;
+            text-align: right;
+            font-size: 13px;
+            margin: 0px 20px 0px 0px;
+        }
+
+        li {
+            color: @col;
+            text-align: right;
+            font-size: 13px;
+            list-style: none;
+            margin: 0px 20px 0px 0px;
+        }
+
+        li:before {
+            content: "• ";
+            color: @text;
+            font-size: 22px;
+            margin: .25em 0.25em 0;
+            position: relative;
+            top: 5px;
+            left: 7px;
+        }
+    }
+    
+}
+.we-img {
+  width: 100%;
+    img{
+    position: absolute;
+        width: 100%;
+    }
 }

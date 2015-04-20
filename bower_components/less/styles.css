@@ -382,6 +382,7 @@ img.hello {
   font-size: 11px;
   text-decoration: none;
   padding-left: 136px;
+  cursor: pointer;
 }
 .det-right img {
   width: 100%;
@@ -432,6 +433,7 @@ img.hello {
 .slider-stor .sum-img {
   position: relative;
   bottom: 50px;
+  cursor: pointer;
 }
 .slider-stor .det-cont {
   padding-top: 20px;
@@ -440,4 +442,56 @@ img.hello {
   color: #231f20;
   font-size: 13px;
   margin: 0px 10px;
+}
+.beleive .we-head h1 {
+  color: #f58220;
+  font-family: trashhand;
+  font-size: 100px;
+  padding-top: 25px;
+}
+.beleive .we-det {
+  height: 432px;
+}
+.beleive .we-pic {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+}
+.beleive .we-pic img {
+  width: 100%;
+}
+.beleive .we-txt {
+  margin: 0px 122px 0px 0px;
+  height: 432px;
+  overflow-y: scroll;
+  overflow: hidden;
+}
+.beleive .we-txt p {
+  color: #231f20;
+  text-align: right;
+  font-size: 13px;
+  margin: 0px 20px 0px 0px;
+}
+.beleive .we-txt li {
+  color: #231f20;
+  text-align: right;
+  font-size: 13px;
+  list-style: none;
+  margin: 0px 20px 0px 0px;
+}
+.beleive .we-txt li:before {
+  content: "• ";
+  color: #f58220;
+  font-size: 22px;
+  margin: .25em 0.25em 0;
+  position: relative;
+  top: 5px;
+  left: 7px;
+}
+.we-img {
+  width: 100%;
+}
+.we-img img {
+  position: absolute;
+  width: 100%;
 }

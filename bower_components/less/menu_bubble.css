@@ -11,14 +11,16 @@
 }
 
 .content-wrap {
-	/* overflow-y: scroll; */
+	overflow: hidden;
 	-webkit-overflow-scrolling: touch;
-	/* transition: transform 0.4s; */
+	transition: transform 0.4s;
 }
 
 .content {
-	position: relative;
+	/* position: relative; */
 	/* background: #b4bad2; */
+	height: 100%;
+	display: -webkit-box;
 }
 
 .content::before {
@@ -168,7 +170,7 @@
 .show-menu .morph-shape,
 .show-menu .content::before {
 	transform: translate3d(0,0,0);
-	display: inline-block;
+	display: inline;
 }
 
 .show-menu .menu,
@@ -182,4 +184,5 @@
 .show-menu .content::before {
 	opacity: 1;
 	transition: opacity 0.4s;
+	height: 100%;
 }
