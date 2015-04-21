@@ -314,17 +314,18 @@ img.hello {
   float: left;
   color: #f58220;
   font-family: trashhand;
-  font-size: 125px;
-  margin-right: -40px;
+  font-size: 150px;
+  margin-right: -45px;
 }
 .stori-head .head-left {
   float: left !important;
 }
 .stori-head ul {
-  float: left;
-  padding: 32px 26px;
-  line-height: 25px;
+  float: right;
+  padding: 37px 0px;
+  line-height: 31px;
   list-style: none;
+  font-size: 20px;
 }
 .stori-head li:hover {
   color: #f58220;
@@ -342,10 +343,10 @@ img.hello {
   text-decoration: none;
 }
 .line {
-  background: url("../img/object/line.png") no-repeat center;
-  background-size: 100% 50px;
-  background-position-y: 114px;
-  height: 159px;
+  background: url("http://localhost/science/bower_components/img/object/line.png") no-repeat center;
+  background-size: 100% 43px;
+  background-position-y: 140px;
+  height: 190px;
 }
 .det-stor {
   padding-top: 10px;
@@ -408,6 +409,7 @@ img.hello {
   text-align: right !important;
   font-size: 11px;
   text-decoration: none;
+  cursor: pointer;
 }
 .tab_content {
   display: none;
@@ -415,6 +417,7 @@ img.hello {
 #tabs li.active a {
   color: #f58220;
   text-decoration: none;
+  font-weight: bold;
 }
 #tabs li.active a:hover {
   text-decoration: none;
@@ -446,8 +449,9 @@ img.hello {
 .beleive .we-head h1 {
   color: #f58220;
   font-family: trashhand;
-  font-size: 100px;
+  font-size: 120px;
   padding-top: 25px;
+  text-align: center;
 }
 .beleive .we-det {
   height: 432px;
