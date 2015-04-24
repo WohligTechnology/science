@@ -381,19 +381,19 @@ img.hello {
             float: left;
             color: @text;
             font-family: trashhand;
-             font-size: 150px;
-  margin-right: -45px;
+            font-size: 150px;
+            margin-right: -45px;
         }
     }
 
     .head-left { float: left !important; }
 
     ul {
-   float: right;
-  padding: 37px 0px;
-  line-height: 31px;
-  list-style: none;
-  font-size: 20px;
+        float: right;
+        padding: 37px 0px;
+        line-height: 31px;
+        list-style: none;
+        font-size: 20px;
     }
 
     li:hover {
@@ -414,10 +414,10 @@ img.hello {
 }
 
 .line {
-     background: url("http://localhost/science/bower_components/img/object/line.png") no-repeat center;
-  background-size: 100% 43px;
-  background-position-y: 140px;
-   height: 190px;
+    background: url("http://localhost/science/bower_components/img/object/line.png") no-repeat center;
+    background-size: 100% 43px;
+    background-position-y: 140px;
+    height: 190px;
 }
 
 .det-stor {
@@ -493,7 +493,7 @@ img.hello {
         text-align: right !important;
         font-size: 11px;
         text-decoration: none;
-          cursor: pointer;
+        cursor: pointer;
     }
 }
 
@@ -502,7 +502,7 @@ img.hello {
 #tabs li.active a {
     color: @text;
     text-decoration: none;
-      font-weight: bold;
+    font-weight: bold;
 }
 
 #tabs li.active a:hover { text-decoration: none; }
@@ -550,11 +550,137 @@ img.hello {
     .we-det { height: 432px; }
 
     .we-pic {
-        position: absolute;
+        position: relative;
         left: 0px;
         width: 100%;
+        top: 70px;
 
         img { width: 100%; }
+    }
+
+    .we-pics {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        top: -81px;
+        text-align: center;
+
+        img { width: 80%; }
+
+        .stu-img {
+            height: 211px;
+            width: 290px;
+            position: relative;
+            text-align: center;
+        }
+    }
+
+    .we-txts {
+        p { text-align: center!important; }
+
+        img {
+            text-align: center;
+            padding-top: 116px;
+        }
+
+        .circle-set {
+            width: 606px;
+            position: relative;
+        }
+
+        h4:hover {
+            background: rgb(245, 130, 32) !important;
+            color: #fff !important;
+        }
+
+        h4.circle1 {
+            color: @col;
+            background: transparent;
+            border-radius: 100%;
+            border: 3px solid rgb(245, 130, 32);
+            height: 115px;
+            width: 115px;
+            line-height: 20px;
+            padding: 30px 0px;
+            position: absolute;
+            left: 88px;
+            top: 19px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+              cursor: pointer;
+        }
+
+        h4.circle2 {
+            color: @col;
+            background: transparent;
+            border-radius: 100%;
+            border: 3px solid rgb(245, 130, 32);
+            height: 115px;
+            width: 115px;
+            line-height: 20px;
+            padding: 30px 0px;
+            position: absolute;
+            right: 90px;
+            top: 71px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+              cursor: pointer;
+        }
+
+        h4.circle3 {
+            color: @col;
+            background: transparent;
+            border-radius: 100%;
+            border: 3px solid rgb(245, 130, 32);
+            height: 115px;
+            width: 115px;
+            line-height: 20px;
+            padding: 30px 0px;
+            position: relative;
+            left: 137px;
+            bottom: 40px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+              cursor: pointer;
+        }
+
+        h4.circle4 {
+            color: @col;
+            background: transparent;
+            border-radius: 100%;
+            border: 3px solid #f58220;
+            height: 115px;
+            width: 115px;
+            line-height: 20px;
+            padding: 38px 0px;
+            position: absolute;
+            right: 83px;
+            bottom: 40px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+              cursor: pointer;
+        }
+
+        .p-color {
+            color: @text;
+            font-weight: 600;
+        }
     }
 
     .we-txt {
@@ -567,7 +693,7 @@ img.hello {
             color: @col;
             text-align: right;
             font-size: 13px;
-            margin: 0px 20px 0px 0px;
+            margin: 15px 20px 0px 0px;
         }
 
         li {
@@ -588,12 +714,52 @@ img.hello {
             left: 7px;
         }
     }
-    
 }
+
 .we-img {
-  width: 100%;
-    img{
-    position: absolute;
+    width: 100%;
+
+    img {
+        position: absolute;
         width: 100%;
     }
+}
+
+.stu-set {
+    text-align: left !important;
+    margin: 0px 0px 0px 0px;
+}
+
+.learn-set {
+    text-align: right !important;
+    margin: -63px 126px 0px 0px;
+    padding-top: 0px !important;
+}
+.stu-back{
+background: url("../img/object/backssss.png")no-repeat center center;
+    background-size: 100% 100%;
+    height: 400px;
+}
+.stu-div {
+  position: relative;
+  right: 90px;
+    width: 90%;
+}
+.st-img{
+  position: absolute;
+    right: 60px;
+  top: 30px;
+      cursor: pointer;
+}
+.stu-det.text-center {
+    padding-top: 40px;
+    margin: 0px 61px;
+    h3 {
+    font-family: trashhand;
+    text-transform: uppercase;
+}
+    p {
+    color: @col;
+    font-size: 13px;
+}
 }
