@@ -677,6 +677,7 @@ img.hello {
   position: absolute;
   opacity: 0;
   transition: all 0.5s ease;
+  cursor: pointer;
 }
 .lab-left .lab-back:hover .lab-title {
   opacity: 0;
