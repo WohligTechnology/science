@@ -659,4 +659,39 @@ img.hello {
   background: url("../img/object/cover.png") no-repeat center center;
   backkground-size: 100% 100%;
   height: 386px;
+  transition: all 0.5s ease;
+}
+.lab-left .lab-title {
+  color: #f58220;
+  position: absolute;
+  font-family: trashhand;
+  font-size: 95px;
+  left: 100px;
+  line-height: 1;
+  top: 75px;
+  opacity: 1;
+}
+.lab-left .citylabimg {
+  left: 95px;
+  top: 85px;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.lab-left .lab-back:hover .lab-title {
+  opacity: 0;
+}
+.lab-left .lab-back:hover .citylabimg {
+  opacity: 1;
+}
+.lab-right p {
+  color: #231f20;
+  font-size: 13px;
+}
+.lab-right ol li {
+  color: #231f20;
+  font-size: 13px;
+}
+.lab-right a {
+  color: #f58220;
 }

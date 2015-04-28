@@ -773,5 +773,44 @@ background: url("../img/object/backssss.png")no-repeat center center;
 background: url("../img/object/cover.png")no-repeat center center;
     backkground-size:100% 100%;
       height: 386px;
+    transition: all 0.5s ease;
 }
+    .lab-title{
+        color: @text;
+  position: absolute;
+  font-family: trashhand;
+  font-size: 95px;
+  left: 100px;
+  line-height: 1;
+  top: 75px;
+  opacity: 1;
+    }
+    .citylabimg{
+        left: 95px;
+  top: 85px;
+  position: absolute;
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+    .lab-back:hover .lab-title{
+        opacity: 0;
+    }
+    .lab-back:hover .citylabimg{
+        opacity:1;
+    }
+}
+.lab-right{
+    
+    p{
+        
+    color:@col;
+        font-size:13px;
+    }
+    ol li{
+        color:@col;
+        font-size: 13px;
+    }
+    a {
+        color:@text;
+    }
 }

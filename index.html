@@ -21,7 +21,10 @@
     <!--    <script src="bower_components/jquery/hamburger-menu.js"></script>-->
     <script src="bower_components/jquery/snap.svg-min.js"></script>
     <!--    <script src="bower_components/jquery/jquery.mCustomScrollbar.concat.min.js"></script>-->
+    <script src="bower_components/fancybox/jquery.fancybox.js"></script>
+    <script src="bower_components/fancybox/jquery.fancybox.pack.js"></script>
 
+    <link src="bower_components/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="bower_components/less/app.css">
     <link rel="stylesheet" href="bower_components/less/menu_bubble.css">
     <link rel="stylesheet" href="bower_components/less/font-awesome.css">
@@ -36,15 +39,7 @@
         <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
         
     <![endif]-->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#featured").tabs({
-                fx: {
-                    opacity: "toggle"
-                }
-            }).tabs("rotate", 5000, true);
-        });
-    </script>
+
 </head>
 
 <body>
@@ -128,9 +123,11 @@
                                 <li>
                                     <img class="menu-img3" src="bower_components/img/menu/menu6-1.png">curriculum <img src="bower_components/img/menu/menu6-2.png" class="img-dat">
                                 </li>
-                               <a href="#lab"> <li style="padding-left: 70px;">
-                                    <img class="menu-img4" src="bower_components/img/menu/menu7-1.png"> city as lab <img src="bower_components/img/menu/menu7-2.png" class="dat-img">
-                                   </li></a>
+                                <a href="#lab">
+                                    <li style="padding-left: 70px;">
+                                        <img class="menu-img4" src="bower_components/img/menu/menu7-1.png"> city as lab <img src="bower_components/img/menu/menu7-2.png" class="dat-img">
+                                    </li>
+                                </a>
                                 <a href="#stories">
                                     <li style="padding-right: 5px;">
                                         <img class="menu-img5" src="bower_components/img/menu/menu8-1.png"> stories<img src="bower_components/img/menu/menu8-2.png">
@@ -188,7 +185,7 @@
                     </p>
                 </div>
             </div>
-<!--
+            <!--
             <div class="row">
                 <div class="col-md-5">
                     <div class="are-set">
@@ -234,13 +231,13 @@
                 </div>
             </div>
         </div>
-<!--
+        <!--
         <div class="text-center">
             <a href="#homes"><img src="bower_components/img/up.png">
             </a>
         </div>
 -->
-<!--
+        <!--
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -332,8 +329,8 @@
             <div class="we-img">
                 <img src="bower_components/img/object/line2.png">
             </div>
-          
-<!--
+
+            <!--
             <div class="footer">
                  <div class="text-center" style="  position: relative;padding-top: 12px;">
                 <a href="#homes"><img src="bower_components/img/up.png">
@@ -435,35 +432,34 @@
                                 </div>
                             </div>
                         </div>
-                                <div class="stu-div round2">
+                        <div class="stu-div round2">
                             <div class="stu-back">
                                 <a id="shw2"><img class="st-img" src="bower_components/img/object/clos.png">
                                 </a>
                                 <div class="stu-det text-center">
                                     <h3>Collaborative Inquiry</h3>
-                                    <p>We believe that learning is a social, meaning-making process, and so students in our workshops work in collaborative groups. In every workshop, students are given a challenge - a task they need to accomplish or question they need to answer- that requires them to work together to find the solution or the answer by conducting an inquiry. The inquiry process can take on many forms - students may design and conduct an experiment, sketch and build a model, collect and analyze data. Depending on the age of students, the topic and the challenge, the inquiry may be open, guided or structured. 
+                                    <p>We believe that learning is a social, meaning-making process, and so students in our workshops work in collaborative groups. In every workshop, students are given a challenge - a task they need to accomplish or question they need to answer- that requires them to work together to find the solution or the answer by conducting an inquiry. The inquiry process can take on many forms - students may design and conduct an experiment, sketch and build a model, collect and analyze data. Depending on the age of students, the topic and the challenge, the inquiry may be open, guided or structured.
                                 </div>
                             </div>
                         </div>
-                                   <div class="stu-div round3">
+                        <div class="stu-div round3">
                             <div class="stu-back">
                                 <a id="shw3"><img class="st-img" src="bower_components/img/object/clos.png">
                                 </a>
                                 <div class="stu-det text-center">
                                     <h3>Instructional Scaffolds</h3>
-                                    <p>An instructional scaffold is any kind of temporary support that allows a student to move towards deeper understanding and conceptual clarity. Since we want our students to develop their problem-solving capacity, we try to interfere as little as possible in the collaborative inquiry process. However, we do need to provide certain instructional scaffolds along the way to guide the learning and reflection process. Our workshop design always includes deliberate and thoughtful scaffolds in the form of worksheets, organizers, instructions, videos, modelling, demonstrations, questioning, explanations and enough time to reflect. The type and amount of scaffolding used depends on the age of students, the topic and the challenge presented. 
+                                    <p>An instructional scaffold is any kind of temporary support that allows a student to move towards deeper understanding and conceptual clarity. Since we want our students to develop their problem-solving capacity, we try to interfere as little as possible in the collaborative inquiry process. However, we do need to provide certain instructional scaffolds along the way to guide the learning and reflection process. Our workshop design always includes deliberate and thoughtful scaffolds in the form of worksheets, organizers, instructions, videos, modelling, demonstrations, questioning, explanations and enough time to reflect. The type and amount of scaffolding used depends on the age of students, the topic and the challenge presented.
                                 </div>
                             </div>
                         </div>
-                                     <div class="stu-div round4">
+                        <div class="stu-div round4">
                             <div class="stu-back">
                                 <a id="shw4"><img class="st-img" src="bower_components/img/object/clos.png">
                                 </a>
                                 <div class="stu-det text-center">
                                     <h3>Optimal Use of Resources</h3>
-                                    <p>The materials used in our workshops are typically recycled from everyday objects we find lying around our homes and offices- dried up pen skeletons, bottle caps, boxes and packaging materials, etc. 
-In an effort to develop sustainable workshops, we try to minimize our use of materials that are expensive, bad for our planet or not easily accessible by most students. If we do use such materials, we try to recover them at the end of the workshop, so that they may be reused. This is an important component of our workshop design because we want students to be able to use resources that are easily available to them at home to become creative problem-solvers. 
-            </div>
+                                    <p>The materials used in our workshops are typically recycled from everyday objects we find lying around our homes and offices- dried up pen skeletons, bottle caps, boxes and packaging materials, etc. In an effort to develop sustainable workshops, we try to minimize our use of materials that are expensive, bad for our planet or not easily accessible by most students. If we do use such materials, we try to recover them at the end of the workshop, so that they may be reused. This is an important component of our workshop design because we want students to be able to use resources that are easily available to them at home to become creative problem-solvers.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -473,13 +469,13 @@ In an effort to develop sustainable workshops, we try to minimize our use of mat
         <div class="we-img">
             <img src="bower_components/img/object/line2.png">
         </div>
-<!--
+        <!--
         <div class="text-center" style="  position: relative;padding-top: 12px;">
             <a href="#homes"><img src="bower_components/img/up.png">
             </a>
         </div>
 -->
-<!--
+        <!--
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -498,7 +494,7 @@ In an effort to develop sustainable workshops, we try to minimize our use of mat
 
     </div>
 
-   
+
     <div class="section lab" id="lab" style="  border-bottom: 1px solid rgb(245, 130, 32);padding-bottom: 15px;">
         <div class="menu-wrap">
             <nav class="menu">
@@ -523,7 +519,7 @@ In an effort to develop sustainable workshops, we try to minimize our use of mat
                 </div>
             </div>
         </div>
-<!--
+        <!--
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -539,35 +535,61 @@ In an effort to develop sustainable workshops, we try to minimize our use of mat
         </div>
 -->
 
-        <div class="content">
-        <div class="container">
-      <div class="row">
-          <div class="col-md-4">
-              <div class="lab-left">
-                 <div class="lab-back">
-                     
-                 </div>
-<!--                  <img src="bower_components/img/object/cover.png">-->
-              </div>
-          </div>
-          <div class="col-md-8">
-              <div class="lab-right">
-                  
-              </div>
-          </div>
-      </div>
-       </div>
+        <div class="content" style="margin: 28px 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="lab-left">
+                            <div class="lab-back">
+                                <div class="lab-title">
+                                    <div>CITY AS</div>
+                                    <div style="font-size:164px;">LAB</div>
+                                </div>
+                                <div class="citylabimg">
+                                    <img src="bower_components/img/city-as-lab.png">
+                                </div>
+                            </div>
+                            <!--                  <img src="bower_components/img/object/cover.png">-->
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="lab-right">
+                            <p>City as Lab is our flagship research and inquiry project for 6th-9th standard students.</p>
+                            <br>
+                            <p>The project is facilitated by school teachers with Reniscience Education providing on-going support in the form of professional development, lesson plans, on-going feedback, checklists, rubrics and coaching.</p>
+                            <br>
+                            <p>Our vision with this program is to build a network of institutions that support authentic research and inquiry in all classrooms across the country.</p>
+                            <br>
+                            <p>By participating in this one-of-a-kind project:
+                                <ol>
+                                    <li>Children develop key 21st century skills of collaboration, critical thinking and information fluency.</li>
+                                    <li>Teachers become proficient in Project Based Learning</li>
+                                    <li>Students get exposure to authentic research skills and develop an inquiry temperament.</li>
+                                    <li>Student get excited about writing and learn to write in context with a definite purpose and for a specific audience</li>
+                                </ol>
+                            </p>
+                            <br>
+                            <p>This video will give you a better understanding of the process we follow to implement City as Lab.</p>
+                            <p>
+                            <a class="various fancybox.iframe"   href="https://www.youtube.com/watch?v=Zki5eA9CJek">C0wqYA3IzPo</a>
+                           
+                            </p>
+                            <p>If you are interested in registering for City as Lab, please send us an email.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="we-img">
             <img src="bower_components/img/object/line2.png">
         </div>
-<!--
+        <!--
         <div class="text-center" style="  position: relative;padding-top: 12px;">
             <a href="#homes"><img src="bower_components/img/up.png">
             </a>
         </div>
 -->
-<!--
+        <!--
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -586,9 +608,9 @@ In an effort to develop sustainable workshops, we try to minimize our use of mat
 
     </div>
 
-   
-   
-   
+
+
+
     <div class="section stori" id="stories" style="  border-bottom: 1px solid rgb(245, 130, 32);padding-bottom: 15px;">
         <div class="menu-wrap">
             <nav class="menu">
@@ -892,7 +914,7 @@ In an effort to develop sustainable workshops, we try to minimize our use of mat
                     </div>
                 </div>
 
-             
+
                 <div class="container read-set ">
                     <div class="slider-stor ">
                         <div class="row">
@@ -949,7 +971,7 @@ In an effort to develop sustainable workshops, we try to minimize our use of mat
 
                             </div>
                         </div>
-                        <div class="row" >
+                        <div class="row">
                             <div class="col-md-12">
                                 <div class="det-cont">
                                     <p>“Not everybody's going to be an entrepreneur, but everybody should be financially literate. Financial literacy is a base requirement like spelling or reading or something of the sort that everybody should acquire at any early age. The financial habits you develop when you are young are going to go with you into your adulthood. But you can't be an entrepreneur unless you're financially literate.” – Warren Buffett</p>
@@ -975,7 +997,7 @@ In an effort to develop sustainable workshops, we try to minimize our use of mat
             <a href="#homes"><img src="bower_components/img/up.png">
             </a>
         </div>
-            <div class="footer">
+        <div class="footer">
             <div class="container">
                 <div class="row">
                     <div class="foot-set pull-left">
@@ -1036,7 +1058,21 @@ In an effort to develop sustainable workshops, we try to minimize our use of mat
             });
         });
     </script>
-
+    <script type="text/javascript">
+  $(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+    </script>
 
 </body>
 
