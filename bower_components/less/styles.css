@@ -696,3 +696,7 @@ img.hello {
 .lab-right a {
   color: #f58220;
 }
+.con-set {
+  background: url("../img/object/contact.png") no-repeat center center;
+  background-size: 100% 100%;
+}
