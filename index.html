@@ -21,11 +21,11 @@
     <!--    <script src="bower_components/jquery/hamburger-menu.js"></script>-->
     <script src="bower_components/jquery/snap.svg-min.js"></script>
     <!--    <script src="bower_components/jquery/jquery.mCustomScrollbar.concat.min.js"></script>-->
-<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>-->
+    <!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>-->
     <script src="fancy/jquery.fancybox.js"></script>
     <script src="fancy/jquery.fancybox.pack.js"></script>
 
-<!--    <link src="fancy/jquery.fancybox.css">-->
+    <!--    <link src="fancy/jquery.fancybox.css">-->
     <link src="fancy/helpers/jquery.fancybox-buttons.css">
     <link src="fancy/helpers/jquery.fancybox-media.js">
     <link src="fancy/helpers/jquery.fancybox-buttons.js">
@@ -38,8 +38,8 @@
     <link rel="stylesheet" href="bower_components/less/font-awesome.min.css">
     <link rel="stylesheet" href="bower_components/less/animate.css">
     <link rel="stylesheet" href="bower_components/less/jquery.mCustomScrollbar.css">
-    
-    
+
+
 
 
 
@@ -143,9 +143,11 @@
                                         <img class="menu-img5" src="bower_components/img/menu/menu8-1.png"> stories<img src="bower_components/img/menu/menu8-2.png">
                                     </li>
                                 </a>
-                                <li style="padding-right: 16px;">
-                                    <img class="img-li" src="bower_components/img/menu/menu9.png"> contact
-                                </li>
+                                <a href="#contact">
+                                    <li style="padding-right: 16px;">
+                                        <img class="img-li" src="bower_components/img/menu/menu9.png"> contact
+                                    </li>
+                                </a>
                             </ul>
                         </div>
                         <div class="col-md-3"></div>
@@ -581,9 +583,9 @@
                             <br>
                             <p>This video will give you a better understanding of the process we follow to implement City as Lab.</p>
                             <p>
-                            <a class="fancybox fancybox.iframe"  href="http://www.youtube.com/embed/C0wqYA3IzPo?autoplay=1">
+                                <a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/C0wqYA3IzPo?autoplay=1">
 https://www.youtube.com/watch?v=C0wqYA3IzPo</a>
-                           
+
                             </p>
                             <p>If you are interested in registering for City as Lab, please send us an email.</p>
                         </div>
@@ -1008,7 +1010,7 @@ https://www.youtube.com/watch?v=C0wqYA3IzPo</a>
             <a href="#homes"><img src="bower_components/img/up.png">
             </a>
         </div>
-<!--
+        <!--
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -1052,7 +1054,7 @@ https://www.youtube.com/watch?v=C0wqYA3IzPo</a>
 
                             <button class="menu-button" id="open-button2">Open Menu</button>
                         </div>
-                       
+
                     </div>
                 </div>
 
@@ -1060,19 +1062,25 @@ https://www.youtube.com/watch?v=C0wqYA3IzPo</a>
 
 
         </div>
-        <div class="content-wrap">
+
+        <div class="content-wrap con-set">
             <div class="content ">
 
-<div class="row">
-       <div class="col-md-12">
-        <div class="con-set">
-           
+                <div class="contact-text">
+                    <div class="fcontact">
+                        CON
+                    </div>
+                    <div class="fcontact text">
+                        TACT
+                    </div>
+                    <div class="info-contact">
+                        <p>Please drop in an E-mail to say hi!</p>
+                        <p>reniscienceeducation@gmail.com</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
-   </div>
 
-
-      
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -1086,59 +1094,62 @@ https://www.youtube.com/watch?v=C0wqYA3IzPo</a>
 
             </div>
         </div>
-    </div>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/jquery/jquery.lory.min.js"></script>
-    <script src="bower_components/jquery/classie.js"></script>
-    <script src="bower_components/jquery/main4.js"></script>
-    <script src="bower_components/jquery/jquery.mCustomScrollbar.js"></script>
-    
+
+        <div class="we-img">
+            <img src="bower_components/img/object/line2.png">
+        </div>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/jquery/jquery.lory.min.js"></script>
+        <script src="bower_components/jquery/classie.js"></script>
+        <script src="bower_components/jquery/main4.js"></script>
+        <script src="bower_components/jquery/jquery.mCustomScrollbar.js"></script>
+
         <script type="text/javascript">
-$(document).ready(function() {
-	$('.fancybox').fancybox({
-        
-        maxWidth	: 800,
-		maxHeight	: 600,
-		fitToView	: false,
-		width		: '70%',
-		height		: '70%',
-		autoSize	: false,
-		openEffect  : 'none',
-		closeEffect : 'none',
-        closeBtn : 'true',
-//		helpers : {
-//			media : {}
-//		}
-	});
-});
-    </script>
-    
-    
-    <script>
-        'use strict';
+            $(document).ready(function () {
+                $('.fancybox').fancybox({
 
-        document.addEventListener('DOMContentLoaded', function () {
-
-            var variableWidth = document.querySelector('.js_variablewidth');
-            lory(variableWidth, {
-                rewind: true
-            });
-        });
-    </script>
-    <script>
-        (function ($) {
-            $(window).load(function () {
-
-                $(".scrolls").mCustomScrollbar({
-                    //					autoHideScrollbar:false,
-                    theme: "light-2"
+                    maxWidth: 800,
+                    maxHeight: 600,
+                    fitToView: false,
+                    width: '70%',
+                    height: '70%',
+                    autoSize: false,
+                    openEffect: 'none',
+                    closeEffect: 'none',
+                    closeBtn: 'true',
+                    //		helpers : {
+                    //			media : {}
+                    //		}
                 });
-
             });
-        })(jQuery);
-    </script>
+        </script>
 
-<!--
+
+        <script>
+            'use strict';
+
+            document.addEventListener('DOMContentLoaded', function () {
+
+                var variableWidth = document.querySelector('.js_variablewidth');
+                lory(variableWidth, {
+                    rewind: true
+                });
+            });
+        </script>
+        <script>
+            (function ($) {
+                $(window).load(function () {
+
+                    $(".scrolls").mCustomScrollbar({
+                        //					autoHideScrollbar:false,
+                        theme: "light-2"
+                    });
+
+                });
+            })(jQuery);
+        </script>
+
+        <!--
     <script>
         $(document).ready(function () {
             $('a[href^="#"]').on('click', function (e) {

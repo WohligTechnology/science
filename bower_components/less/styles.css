@@ -699,4 +699,33 @@ img.hello {
 .con-set {
   background: url("../img/object/contact.png") no-repeat center center;
   background-size: 100% 100%;
+  color: #f58220;
+  width: auto;
+  height: 472px;
+  background-position-x: 85px;
+}
+.contact-text {
+  font-family: trashhand;
+  position: absolute;
+  right: 27.5%;
+}
+.contact-text .text {
+  position: absolute;
+  left: 65px;
+  top: 122px;
+}
+.info-contact {
+  position: absolute;
+  top: 65px;
+  left: 215px;
+  line-height: 0.9;
+}
+.info-contact p {
+  color: #231f20;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+.fcontact {
+  font-size: 190px;
+  line-height: 0.8;
 }
