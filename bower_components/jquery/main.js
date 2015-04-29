@@ -55,11 +55,54 @@ $(document).ready(function () {
         $(".we-txt").show(500);
     });
 
+    
+    
+    $("#cl1").click(function () {
+        $("#pro-set").hide(500);
+        $("#pro-set2").show();
+    });
+     $("#cl2").click(function () {
+//          $(this).toggle();
+        $("#pro-set").hide(500);
+        $("#pro-set3").show();
+    });
+     $("#cl3").click(function () {
+        $("#pro-set").hide(500);
+        $("#pro-set4").show();
+    });
+     $("#cl4").click(function () {
+        $("#pro-set").hide(500);
+        $("#pro-set5").show();
+    });
+    
+        $("#op1").click(function () {
+        $("#pro-set2").hide();
+        $("#pro-set").show(500);
+    });
+      $("#op2").click(function () {
+        $("#pro-set3").hide();
+        $("#pro-set").show(500);
+    });
+     $("#op3").click(function () {
+        $("#pro-set4").hide();
+        $("#pro-set").show(500);
+    });
+     $("#op4").click(function () {
+        $("#pro-set5").hide();
+        $("#pro-set").show(500);
+    });
+
 
     $(".round1").hide();
     $(".round2").hide();
     $(".round3").hide();
     $(".round4").hide();
+    
+       $("#pro-set2").hide();
+    $("#pro-set3").hide();
+    $("#pro-set4").hide();
+    $("#pro-set5").hide();
+    
     $("#tabs li").click(function () {
         //  First remove class "active" from currently active tab
         $("#tabs li").removeClass('active');

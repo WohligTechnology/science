@@ -17,11 +17,15 @@
 		openbtn3 = document.getElementById( 'open-button3' ),
 		openbtn4 = document.getElementById( 'open-button4' ),
 		openbtn5 = document.getElementById( 'open-button5' ),
+		openbtn6 = document.getElementById( 'open-button6' ),
+		openbtn7 = document.getElementById( 'open-button7' ),
 		closebtn = document.getElementById( 'close-button' ),
 		closebtn2 = document.getElementById( 'close-button2' ),
 		closebtn3 = document.getElementById( 'close-button3' ),
 		closebtn4 = document.getElementById( 'close-button4' ),
 		closebtn5 = document.getElementById( 'close-button5' ),
+		closebtn6 = document.getElementById( 'close-button6' ),
+		closebtn7 = document.getElementById( 'close-button7' ),
 		isOpen = false;
 
 	function init() {
@@ -34,12 +38,16 @@
 		openbtn3.addEventListener( 'click', toggleMenu );
 		openbtn4.addEventListener( 'click', toggleMenu );
 		openbtn5.addEventListener( 'click', toggleMenu );
+		openbtn6.addEventListener( 'click', toggleMenu );
+		openbtn7.addEventListener( 'click', toggleMenu );
 		if( closebtn ) {
 			closebtn.addEventListener( 'click', toggleMenu );
 			closebtn2.addEventListener( 'click', toggleMenu );
 			closebtn3.addEventListener( 'click', toggleMenu );
 			closebtn4.addEventListener( 'click', toggleMenu );
 			closebtn5.addEventListener( 'click', toggleMenu );
+			closebtn6.addEventListener( 'click', toggleMenu );
+			closebtn7.addEventListener( 'click', toggleMenu );
 		}
 
 		// close the menu element if the target it´s not the menu element or one of its descendants..
