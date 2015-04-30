@@ -283,6 +283,7 @@ a:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
+  z-index: 999;
 }
 .footer .foot-set {
   padding-top: 18px;
@@ -857,4 +858,48 @@ img.hello {
 .ups {
   position: relative;
   bottom: 150px;
+}
+.curriculum .curri-head h1 {
+  font-size: 100px;
+  color: #f58220;
+  font-family: trashhand;
+  line-height: 85px;
+}
+.curriculum .curri-mk p {
+  text-align: center;
+  color: #231f20;
+  font-size: 13px;
+}
+.curriculum ul.curri-center li {
+  text-align: center;
+  color: #231f20;
+  font-size: 13px;
+  list-style: none;
+}
+.curriculum ul.curri-center li:before {
+  content: "• ";
+  color: #f58220;
+  font-size: 22px;
+  margin: .25em 0.25em 0;
+  position: relative;
+  top: 5px;
+  left: 7px;
+}
+.curriculum .img-curri img {
+  width: 100%;
+  position: relative;
+  padding: 0 25px;
+  bottom: -45px;
+  z-index: 2;
+}
+.curriculum .curri-mk {
+  width: 75%;
+  margin: 0 auto;
+}
+.curriculum .img-curri {
+  width: 100%;
+}
+.curriculum .img-mkcurri {
+  position: relative;
+  width: 100%;
 }
