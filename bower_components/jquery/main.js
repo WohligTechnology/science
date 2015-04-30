@@ -1,4 +1,4 @@
-var adminurl = "http://localhost/reniscience/";
+var adminurl = "http://wohlig.co.in/science/admin/";
 var apiurl = adminurl + "index.php/json/";
 
 
