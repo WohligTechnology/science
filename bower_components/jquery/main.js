@@ -116,16 +116,31 @@ $(document).ready(function() {
         //  Now add class "active" to the selected/clicked tab
         $(this).addClass("active");
 
-        //  Hide all tab content
-        $(".tab_content").hide();
-
-        //  Here we get the href value of the selected tab
-        var selected_tab = $(this).find("a").attr("href");
-
-        //  Show the selected tab content
-        $(selected_tab).fadeIn();
-
-        //  At the end, we add return false so that the click on the link is not executed
+        var filter=$(this).children("a").attr("data-filter");
+        console.log(filter);
+        switch(filter)
+        {
+                
+                case "all":
+                {
+                    $(".teacherrow").show();
+                    $(".studentrow").show();
+                }
+                break;
+                case "student":
+                {
+                    $(".teacherrow").hide();
+                    $(".studentrow").show();
+                }
+                break;
+                case "teacher":
+                {
+                    $(".teacherrow").show();
+                    $(".studentrow").hide();
+                }
+                break;
+        }
+        
         return false;
     });
 
