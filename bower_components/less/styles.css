@@ -420,7 +420,6 @@ img.hello {
 #tabs li.active a {
   color: #f58220;
   text-decoration: none;
-  font-weight: bold;
 }
 #tabs li.active a:hover {
   text-decoration: none;
