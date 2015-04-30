@@ -169,7 +169,7 @@ $(document).ready(function() {
     function addimageslider(src) {
         var src2 = "";
         if (src != "") {
-            src2 = '<li class="js_slide" style="text-align:center;width: auto;height: 312px;"><img src="' + adminurl + "uploads/" + src + '"><p>visit to RBI</p></li>';
+            src2 = '<li class="js_slide" style="text-align:center;width: auto;height: 312px;"><img style="text-align:center;width: auto;height: 312px;" src="' + adminurl + "uploads/" + src + '"><p>visit to RBI</p></li>';
         }
         return src2;
     }
@@ -177,13 +177,19 @@ $(document).ready(function() {
     function changestorydetailcontent(story) {
         $(".readmorepage .fullstorytitle").text(story.title);
         $(".readmorepage .fullstorybody").html(story.content);
-//        $(".readmorepage .fullstoryimages ul").html("");
-//        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image1));
-//        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image2));
-//        for(var i=0;i<story.images.length;i++)
-//        {
-//            $(".readmorepage .fullstoryimages ul").append(addimageslider(story.images[i]));
-//        }
+        $(".readmorepage .fullstoryimages ul").html("");
+        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image1));
+        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image2));
+        console.log(story.images);
+        for (var i = 0; i < story.images.length; i++) {
+            $(".readmorepage .fullstoryimages ul").append(addimageslider(story.images[i]));
+        }
+        $(".readmorepage .fullstoryimages ul img").load(function() {
+            var variableWidth = document.querySelector('.js_variablewidth');
+            lory(variableWidth, {
+                rewind: true
+            });
+        });
     }
 
     function createstorydetailfromid(storyid) {
