@@ -1,93 +1,97 @@
-$(document).ready(function () {
+var adminurl = "http://localhost/reniscience/";
+var apiurl = adminurl + "index.php/json/";
+
+
+$(document).ready(function() {
     $(".section").css("min-height", $(window).height());
-    $(window).resize(function () {
+    $(window).resize(function() {
         $(".section").css("min-height", $(window).height());
     });
 
 
     $('.landing').hide(5510);
 
-    $("#hides, #hides1, #hides2, #hides3, #hides4, #hides5, #hides6, #hides7, #hides8, #hides9, #hides10, #hides11").click(function () {
+    $("#hides, #hides1, #hides2, #hides3, #hides4, #hides5, #hides6, #hides7, #hides8, #hides9, #hides10, #hides11").click(function() {
         $(".tab_content").hide(1000);
         $(".read-set").show();
 
     });
 
-    $("#sum-img").click(function () {
+    $("#sum-img").click(function() {
 
         $(".read-set").hide();
         $(".tab_content").show(1000);
     });
 
 
-    $(".circle1").click(function () {
+    $(".circle1").click(function() {
         $(".we-txt").hide(500);
         $(".round1").show();
     });
-     $(".circle2").click(function () {
-//          $(this).toggle();
+    $(".circle2").click(function() {
+        //          $(this).toggle();
         $(".we-txt").hide(500);
         $(".round2").show();
     });
-     $(".circle3").click(function () {
+    $(".circle3").click(function() {
         $(".we-txt").hide(500);
         $(".round3").show();
     });
-     $(".circle4").click(function () {
+    $(".circle4").click(function() {
         $(".we-txt").hide(500);
         $(".round4").show();
     });
-    
-    $("#shw").click(function () {
+
+    $("#shw").click(function() {
         $(".round1").hide();
         $(".we-txt").show(500);
     });
-      $("#shw2").click(function () {
+    $("#shw2").click(function() {
         $(".round2").hide();
         $(".we-txt").show(500);
     });
-     $("#shw3").click(function () {
+    $("#shw3").click(function() {
         $(".round3").hide();
         $(".we-txt").show(500);
     });
-     $("#shw4").click(function () {
+    $("#shw4").click(function() {
         $(".round4").hide();
         $(".we-txt").show(500);
     });
 
-    
-    
-    $("#cl1").click(function () {
+
+
+    $("#cl1").click(function() {
         $("#pro-set").hide(500);
         $("#pro-set2").show();
     });
-     $("#cl2").click(function () {
-//          $(this).toggle();
+    $("#cl2").click(function() {
+        //          $(this).toggle();
         $("#pro-set").hide(500);
         $("#pro-set3").show();
     });
-     $("#cl3").click(function () {
+    $("#cl3").click(function() {
         $("#pro-set").hide(500);
         $("#pro-set4").show();
     });
-     $("#cl4").click(function () {
+    $("#cl4").click(function() {
         $("#pro-set").hide(500);
         $("#pro-set5").show();
     });
-    
-        $("#op1").click(function () {
+
+    $("#op1").click(function() {
         $("#pro-set2").hide();
         $("#pro-set").show(500);
     });
-      $("#op2").click(function () {
+    $("#op2").click(function() {
         $("#pro-set3").hide();
         $("#pro-set").show(500);
     });
-     $("#op3").click(function () {
+    $("#op3").click(function() {
         $("#pro-set4").hide();
         $("#pro-set").show(500);
     });
-     $("#op4").click(function () {
+    $("#op4").click(function() {
         $("#pro-set5").hide();
         $("#pro-set").show(500);
     });
@@ -97,13 +101,13 @@ $(document).ready(function () {
     $(".round2").hide();
     $(".round3").hide();
     $(".round4").hide();
-    
-       $("#pro-set2").hide();
+
+    $("#pro-set2").hide();
     $("#pro-set3").hide();
     $("#pro-set4").hide();
     $("#pro-set5").hide();
-    
-    $("#tabs li").click(function () {
+
+    $("#tabs li").click(function() {
         //  First remove class "active" from currently active tab
         $("#tabs li").removeClass('active');
 
@@ -122,10 +126,17 @@ $(document).ready(function () {
         //  At the end, we add return false so that the click on the link is not executed
         return false;
     });
-    
+
     $("#circle1").click(function() {
         $(".round1").show();
     });
+
+    $.getJSON(apiurl + "getallstory", function(data) {
+        console.log(data);
+    });
+
+
+
 
 
 });
