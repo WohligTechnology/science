@@ -2,6 +2,8 @@ var adminurl = "http://localhost/reniscience/";
 var apiurl = adminurl + "index.php/json/";
 
 
+var allstories = [];
+
 $(document).ready(function() {
     $(".section").css("min-height", $(window).height());
     $(window).resize(function() {
@@ -131,9 +133,82 @@ $(document).ready(function() {
         $(".round1").show();
     });
 
-    $.getJSON(apiurl + "getallstory", function(data) {
+    function getWords(string) {
+        return string.split(/\s+/).slice(0, 10).join(" ");
+    }
+
+    function addvaluestostories(classname, story) {
+        console.log(classname);
+        $(classname + " .storyimage1").attr("src", adminurl + "uploads/" + story.image1);
+        $(classname + " .storyimage2").attr("src", adminurl + "uploads/" + story.image2);
+        $(classname + " .storyreadmore").attr("data-storyid", story.id);
+        $(classname + " .storytitle").text(story.title);
+        $(classname + " .storybodymin").text(getWords(story.content));
+    }
+
+    function addtostories(data) {
+        var filterclass = "";
+        for (var i = 0; i < data.length; i++) {
+            if (data[i].status == "2") {
+                if (data[i].image2 == "") {
+                    filterclass = ".studentrow .singleimage";
+                } else {
+                    filterclass = ".studentrow .doubleimage";
+                }
+            } else if (data[i].status == "1") {
+                if (data[i].image2 == "") {
+                    filterclass = ".teacherrow .singleimage";
+                } else {
+                    filterclass = ".teacherrow .doubleimage";
+                }
+            }
+            addvaluestostories(filterclass, data[i]);
+        }
+    }
+
+    function addimageslider(src) {
+        var src2 = "";
+        if (src != "") {
+            src2 = '<li class="js_slide" style="text-align:center;width: auto;height: 312px;"><img src="' + adminurl + "uploads/" + src + '"><p>visit to RBI</p></li>';
+        }
+        return src2;
+    }
+
+    function changestorydetailcontent(story) {
+        $(".readmorepage .fullstorytitle").text(story.title);
+        $(".readmorepage .fullstorybody").html(story.content);
+//        $(".readmorepage .fullstoryimages ul").html("");
+//        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image1));
+//        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image2));
+//        for(var i=0;i<story.images.length;i++)
+//        {
+//            $(".readmorepage .fullstoryimages ul").append(addimageslider(story.images[i]));
+//        }
+    }
+
+    function createstorydetailfromid(storyid) {
+        for (var i = 0; i < allstories.length; i++) {
+            console.log(allstories[i].id);
+            if (allstories[i].id == storyid) {
+                changestorydetailcontent(allstories[i]);
+            }
+        }
+    }
+
+    $(".storyreadmore").click(function() {
+        var storyid = $(this).attr("data-storyid");
+        createstorydetailfromid(storyid);
+        console.log(storyid);
+
+    });
+
+    $.getJSON(apiurl + "getallstories", function(data) {
+        allstories = data;
+        addtostories(data);
         console.log(data);
     });
+
+
 
 
 
