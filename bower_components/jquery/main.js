@@ -228,11 +228,12 @@ $(document).ready(function() {
         addtostories(data);
         console.log(data);
     });
+});
 
 
 
-
-
-
-
+$(document).ready(function(){
+    $("#home").onload(function(){
+        $("div").hide();
+    });
 });

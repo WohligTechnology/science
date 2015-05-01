@@ -19,6 +19,7 @@
 		openbtn5 = document.getElementById( 'open-button5' ),
 		openbtn6 = document.getElementById( 'open-button6' ),
 		openbtn7 = document.getElementById( 'open-button7' ),
+        openbtn8 = document.getElementById( 'open-button8' ),
 		closebtn = document.getElementById( 'close-button' ),
 		closebtn2 = document.getElementById( 'close-button2' ),
 		closebtn3 = document.getElementById( 'close-button3' ),
@@ -26,6 +27,7 @@
 		closebtn5 = document.getElementById( 'close-button5' ),
 		closebtn6 = document.getElementById( 'close-button6' ),
 		closebtn7 = document.getElementById( 'close-button7' ),
+        closebtn8 = document.getElementById( 'close-button8' ),
 		isOpen = false;
 
 	function init() {
@@ -40,6 +42,7 @@
 		openbtn5.addEventListener( 'click', toggleMenu );
 		openbtn6.addEventListener( 'click', toggleMenu );
 		openbtn7.addEventListener( 'click', toggleMenu );
+        openbtn8.addEventListener( 'click', toggleMenu );
 		if( closebtn ) {
 			closebtn.addEventListener( 'click', toggleMenu );
 			closebtn2.addEventListener( 'click', toggleMenu );
@@ -48,6 +51,7 @@
 			closebtn5.addEventListener( 'click', toggleMenu );
 			closebtn6.addEventListener( 'click', toggleMenu );
 			closebtn7.addEventListener( 'click', toggleMenu );
+            closebtn8.addEventListener( 'click', toggleMenu );
 		}
 
 		// close the menu element if the target it´s not the menu element or one of its descendants..
@@ -72,3 +76,9 @@
 	init();
 
 })();
+
+
+$(document).ready(function(){
+var divOne = document.getElementById('home');
+divOne.style.display='none';
+});
