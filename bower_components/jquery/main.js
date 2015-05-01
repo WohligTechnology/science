@@ -108,7 +108,23 @@ $(document).ready(function() {
     $("#pro-set3").hide();
     $("#pro-set4").hide();
     $("#pro-set5").hide();
-
+    
+    
+      $('.txt-set').hover(function(){
+        $('.hee').fadeIn(500)
+    },function(){
+        $('.hee').fadeOut(500)
+    })
+      
+           $('.content-txt').hover(function(){
+        $('.hello').fadeIn(500)
+    },function(){
+        $('.hello').fadeOut(500)
+    })
+      
+ $(".hee").hide();
+ $(".hello").hide();
+    
     $("#tabs li").click(function() {
         //  First remove class "active" from currently active tab
         $("#tabs li").removeClass('active');

@@ -127,7 +127,7 @@ a:hover {
 }
 .menu-back {
   background: url("../img/backk.png") no-repeat center;
-  background-size: 100% 100%;
+  background-size: 100% 97%;
   height: 665px;
 }
 .menu-set {
@@ -249,6 +249,7 @@ a:hover {
   position: absolute;
   left: 160px;
   top: 40px;
+  cursor: pointer;
 }
 .right-set .txt-set p {
   text-align: center;
@@ -269,6 +270,7 @@ a:hover {
   top: 125px;
   left: 90px;
   width: 774px;
+  cursor: pointer;
 }
 .content-set .content-txt p {
   text-align: center;
@@ -298,11 +300,13 @@ img.hello {
   position: absolute;
   bottom: 235px;
   left: 50px;
+  cursor: pointer;
 }
 .hee {
   position: absolute;
   left: 186px;
   bottom: 260px;
+  cursor: pointer;
 }
 .log-set img {
   padding-left: 30px;
@@ -332,7 +336,7 @@ img.hello {
   padding: 37px 52px;
   line-height: 1.9;
   list-style: none;
-  font-size: 16px;
+  font-size: 15px;
 }
 .stori-head li:hover {
   color: #f58220;
@@ -905,4 +909,8 @@ img.hello {
 .curriculum .img-mkcurri {
   position: relative;
   width: 100%;
+}
+.we-lf {
+  text-align: right !important;
+  padding-right: 26px !important;
 }
