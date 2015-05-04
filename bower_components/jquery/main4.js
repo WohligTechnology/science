@@ -77,8 +77,3 @@
 
 })();
 
-
-$(document).ready(function(){
-var divOne = document.getElementById('home');
-divOne.style.display='none';
-});
