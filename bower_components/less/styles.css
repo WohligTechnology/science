@@ -369,7 +369,7 @@ img.hello {
 .det-stor .left-det {
   background: #e6e7e8;
   width: 100%;
-  padding: 10px;
+  padding: 10px 10px 20px 10px;
 }
 .det-stor .left-det img {
   height: 317px;
@@ -393,7 +393,7 @@ img.hello {
   text-align: right !important;
   font-size: 11px;
   text-decoration: none;
-  padding-left: 136px;
+  float: right;
   cursor: pointer;
 }
 .det-right img {
