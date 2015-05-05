@@ -748,7 +748,7 @@ img.hello {
   font-size: 13px;
 }
 .pro-set {
-  padding: 25px 0px;
+  padding: 25px 0px 70px;
 }
 .pro-right .circle-set {
   width: 606px;
@@ -911,7 +911,7 @@ img.hello {
 .curriculum .img-mkcurri {
   position: relative;
   width: 100%;
-  bottom: 90px;
+  bottom: 32px;
 }
 .we-lf {
   text-align: right !important;
@@ -922,4 +922,16 @@ img.hello {
 }
 .curri-center {
   margin: 0px;
+}
+.stu-dt {
+  padding-top: 5px;
+  margin: 0px 23px;
+}
+.stu-dt p {
+  color: #231f20;
+  font-size: 13px;
+}
+.stu-dt h3 {
+  font-family: trashhand;
+  text-transform: uppercase;
 }

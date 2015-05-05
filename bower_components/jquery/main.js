@@ -100,19 +100,19 @@ $(document).ready(function () {
 
     $("#op1").click(function () {
         $("#pro-set2").hide();
-        $("#pro-set").show(500);
+        $("#pro-set").fadeIn(500);
     });
     $("#op2").click(function () {
         $("#pro-set3").hide();
-        $("#pro-set").show(500);
+        $("#pro-set").fadeIn(500);
     });
     $("#op3").click(function () {
         $("#pro-set4").hide();
-        $("#pro-set").show(500);
+        $("#pro-set").fadeIn(500);
     });
     $("#op4").click(function () {
         $("#pro-set5").hide();
-        $("#pro-set").show(500);
+        $("#pro-set").fadeIn(500);
     });
 
 
