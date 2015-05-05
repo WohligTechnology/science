@@ -911,6 +911,7 @@ img.hello {
 .curriculum .img-mkcurri {
   position: relative;
   width: 100%;
+  bottom: 90px;
 }
 .we-lf {
   text-align: right !important;
