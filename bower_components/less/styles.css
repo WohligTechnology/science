@@ -465,7 +465,7 @@ img.hello {
   text-align: center;
 }
 .beleive .we-det {
-  height: 432px;
+  height: 415px;
 }
 .beleive .we-pic {
   position: relative;
@@ -883,6 +883,7 @@ img.hello {
   color: #231f20;
   font-size: 13px;
   list-style: none;
+  line-height: 16px;
 }
 .curriculum ul.curri-center li:before {
   content: "• ";
@@ -917,4 +918,7 @@ img.hello {
 }
 .are-st {
   margin-left: -30px;
+}
+.curri-center {
+  margin: 0px;
 }
