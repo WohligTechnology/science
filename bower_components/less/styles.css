@@ -641,6 +641,11 @@ img.hello {
   background-size: 100% 100%;
   height: 400px;
 }
+.mb-hg {
+  background: url("../img/object/backssss.png") no-repeat center center;
+  background-size: 100% 100%;
+  height: 400px;
+}
 .stu-backs {
   background: url("../img/object/backssss.png") no-repeat center center;
   background-size: 100% 100%;
@@ -702,6 +707,7 @@ img.hello {
 .lab-right p {
   color: #231f20;
   font-size: 13px;
+  line-height: 26px;
 }
 .lab-right ol li {
   color: #231f20;
@@ -861,16 +867,8 @@ img.hello {
   top: 0px;
   left: 0px;
 }
-.up {
-  position: relative;
-  bottom: 115px;
-}
 .cl-right {
-  padding-right: 20px;
-}
-.ups {
-  position: relative;
-  bottom: 150px;
+  margin: -138px 20px 0px 20px;
 }
 .curriculum .curri-head h1 {
   font-size: 100px;
@@ -951,4 +949,7 @@ img.hello {
 .stu-dts h3 {
   font-family: trashhand;
   text-transform: uppercase;
+}
+.labs {
+  margin: 58px 0 80px;
 }

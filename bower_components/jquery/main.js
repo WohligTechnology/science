@@ -45,37 +45,37 @@ $(document).ready(function () {
 
     $(".circle1").click(function () {
         $(".we-txt").hide(500);
-        $(".round1").show();
+        $(".round1").fadeIn();
     });
     $(".circle2").click(function () {
         //          $(this).toggle();
         $(".we-txt").hide(500);
-        $(".round2").show();
+        $(".round2").fadeIn();
     });
     $(".circle3").click(function () {
         $(".we-txt").hide(500);
-        $(".round3").show();
+        $(".round3").fadeIn();
     });
     $(".circle4").click(function () {
         $(".we-txt").hide(500);
-        $(".round4").show();
+        $(".round4").fadeIn();
     });
 
     $("#shw").click(function () {
         $(".round1").hide();
-        $(".we-txt").show(500);
+        $(".we-txt").fadeIn(500);
     });
     $("#shw2").click(function () {
         $(".round2").hide();
-        $(".we-txt").show(500);
+        $(".we-txt").fadeIn(500);
     });
     $("#shw3").click(function () {
         $(".round3").hide();
-        $(".we-txt").show(500);
+        $(".we-txt").fadeIn(500);
     });
     $("#shw4").click(function () {
         $(".round4").hide();
-        $(".we-txt").show(500);
+        $(".we-txt").fadeIn(500);
     });
 
 

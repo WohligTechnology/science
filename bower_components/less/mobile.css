@@ -1,16 +1,40 @@
-@media (max-width: 1024px) {
+@media only screen and (min-width: 950px) and (max-width: 1128px) {
+    .lab-left .lab-title {
+        top: 75px !important;
+        font-size: 90px !important;
+        left: 69px !important;
+    }
     .right-set .txt-set {
-        left: 75px;
+        left: 12px;
         top: 24px;
-        padding: 10px 45px;
+        padding: 2px 114px;
+    }
+    .labs {
+        margin: -1px auto;
+    }
+    .lab-right p {
+        line-height: 130%;
+    }
+    .menu-set ul {
+        padding: 0px 0px 0px;
+    }
+    .we-txt {
+        height: 315px !important;
+    }
+    .we-pics {
+        top: -96px !important;
     }
     .right-set .txt-set p {
         text-align: justify;
+        font-size: 12px !important;
+    }
+    .beleive .we-det {
+        height: 354px !important;
     }
     .right-set {
         height: 375px;
-        width: 115%!important;
-        left: -91px;
+        width: 100%!important;
+        left: -74px;
     }
     .content-set {
         bottom: 67px;
@@ -20,12 +44,67 @@
     .are-set h1 {
         font-size: 95px;
     }
+    .lab-left .citylabimg {
+        left: 60px !important;
+    }
     .we-set p {
         line-height: 180%;
         text-align: justify;
     }
+    .content-set .content-txt {
+        position: absolute;
+        top: 125px;
+        left: 60px !important;
+    }
+    .pro-left h1 {
+        line-height: 68px !important;
+        font-size: 90px !important;
+    }
+    .mb-hg {
+        height: 435px !important;
+    }
+    .stu-dt {
+        padding-top: 20px !important;
+        margin: 0px 12px !important;
+    }
+    .curriculum .curri-head h1 {
+        font-size: 95px !important;
+    }
+    .pro-set {
+        padding: 25px 0px 14px !important;
+    }
+    .stu-div {
+        position: relative;
+        left: 0px !important;
+        width: 100% !important;
+    }
+    .menu-back {
+        height: 500px !important;
+    }
+    .contact-text {
+        right: 80px !important;
+    }
+    .fcontact {
+        font-size: 130px !important;
+    }
+    .con-set {
+        height: 408px !important;
+    }
+    .info-contact {
+        right: 15px !important;
+    }
+    .stu-back {
+        height: 340px !important;
+    }
+    .stu-det.text-center {
+        padding-top: 22px !important;
+        margin: 0px 28px !important;
+    }
+    .content-set .content-txt p {
+        font-size: 12px !important;
+    }
     .menu-set li {
-        font-size: 38px;
+        font-size: 30px;
     }
     .menu-set .menu-img1 {
         left: 21%;
@@ -47,7 +126,7 @@
         position: absolute;
         left: 18%;
     }
-        .beleive .we-head h1 {
+    .beleive .we-head h1 {
         font-size: 95px;
     }
     .stori-head .head-mid h1 {
