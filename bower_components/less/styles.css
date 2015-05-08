@@ -653,7 +653,7 @@ img.hello {
 }
 .stu-div {
   position: relative;
-  right: 90px;
+  right: 0px;
   width: 90%;
 }
 .st-img {
@@ -689,6 +689,9 @@ img.hello {
   line-height: 1;
   top: 75px;
   opacity: 1;
+}
+.lab-left .lab-txt {
+  font-size: 164px;
 }
 .lab-left .citylabimg {
   left: 95px;

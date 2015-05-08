@@ -139,3 +139,136 @@
         padding: 37px 28px;
     }
 }
+@media only screen and (min-width: 767px) and (max-width: 990px) {
+    .menu-set li{
+        font-size: 30px;
+    }
+    .menu-back{
+        height:505px;
+    }
+    .menu-set ul{
+        padding:0;
+    }
+    .are-set h1 {
+        font-size: 75px;
+    }
+    .we-set p{
+        line-height: 1.8;
+        font-size: 12px;
+    }
+    .we-set{
+        padding-top:0px;
+    }
+    .right-txt p{
+        padding-top:45px;
+        font-size: 12px;
+    }
+    .are-st .right-set{
+      background: none;
+        min-height: height:310px;
+        width:100%!important;
+    }
+    .are-st img{
+        width:100%;
+    }
+    .right-set .txt-set p{
+       line-height: 1.7;
+        font-size: 12px;
+    }
+    .right-set .txt-set{
+        width:100%;
+        left:67px;
+        top:8px;
+    }
+    .content-set{
+        background: none;
+        left:0;
+        height:320px;
+        width: 100%!important;
+    }
+    .content-set .content-txt{
+        top:40px;
+        width:725px;
+        left:0px;
+    }
+    .content-set .content-txt p{
+        font-size: 12px;
+    }
+    .beleive .we-head h1{
+        font-size: 75px;
+    }
+    .learn-set{
+        line-height: 2;
+    }
+    .stu-back{
+        height:366px;
+    }
+    .stu-div
+    {
+        width:100%;
+        right:0;
+    }
+    .stu-det.text-center{
+        padding-top: 20px;
+  margin: 0px 15px;
+    }
+    .stu-det.text-center p{
+        font-size: 12px;
+    }
+    .beleive .we-txts .circle-set{
+        zoom:0.6;
+    }
+    .beleive .we-txt p{
+        font-size: 12px;
+    }
+    .mCSB_container{
+        overflow: auto!important;
+        height:295px!important;
+    }
+    .beleive .we-det{
+        height:330px;
+    }
+   .curriculum .curri-head h1{
+       font-size: 75px;
+   }
+    .curriculum ul.curri-center li{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .curriculum .curri-mk p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .curriculum .curri-mk{
+        width:100%;
+    }
+    .lab-left .lab-title{
+        font-size: 75px;
+        left:50px;
+    }
+    .lab-left .lab-txt{
+        font-size: 115px;
+    }
+    .lab-left .lab-back{
+        height:300px;
+        background-size: contain;
+    }
+    .lab-left .citylabimg{
+        left:23px;
+        top:45px;
+    }
+    .labs{
+        margin:15px 0 80px;
+    }
+    .lab-right p{
+        font-size: 12px;
+        margin:0;
+        line-height: 18px;
+    }
+    .lab-right ol li{
+        font-size: 12px;
+    }
+    .fcontact{
+        font-size: 75px;
+    }
+}
