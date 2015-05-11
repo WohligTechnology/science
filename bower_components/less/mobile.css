@@ -269,6 +269,47 @@
         font-size: 12px;
     }
     .fcontact{
-        font-size: 75px;
+        font-size: 120px;
     }
+    .stori-head .head-mid h1{
+        font-size: 102px;
+    }
+    .stori-head ul{
+        padding:27px 34px;
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    .head-mid img{
+        zoom:0.7;
+    }
+    .line{
+        background-position-y:99px;
+        height: 145px;
+    }
+    .det-stor .left-det img, .det-right img{
+        width:auto;
+    }
+    .studentrow{
+        padding-bottom: 20px!important;
+    }
+    .contact-text{
+        right:75px;
+    }
+    .info-contact{
+      top: 30px;
+  right: -40px;
+    }
+    .contact-text .text{
+       left: 43px;
+  top: 77px;
+    }
+    .info-contact p{
+        font-size: 12px;
+    }
+    .con-set{
+        height:300px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
 }
