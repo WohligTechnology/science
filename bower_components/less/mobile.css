@@ -5,47 +5,67 @@
         left: 69px !important;
     }
     .right-set .txt-set {
-        left: 12px;
-        top: 24px;
-        padding: 2px 114px;
+        left: -26px;
+        top: 0px;
+        padding: 2px 116px;
     }
     .labs {
-        margin: -1px auto;
+        margin: 75px auto;
     }
     .lab-right p {
         line-height: 130%;
     }
     .menu-set ul {
-        padding: 0px 0px 0px;
+        padding: 45px 0px 0px;
     }
     .we-txt {
-        height: 315px !important;
+        height: 416px !important;
+    }
+    .we-imgs img {
+        bottom: -40px;
+    }
+    .curriculum .img-mkcurri {
+        bottom: 5px !important;
     }
     .we-pics {
         top: -96px !important;
     }
     .right-set .txt-set p {
         text-align: justify;
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
     .beleive .we-det {
-        height: 354px !important;
+        min-height: 443px !important;
+    }
+    .beleive .we-dets {
+        min-height: 433px !important;
     }
     .right-set {
         height: 375px;
         width: 100%!important;
-        left: -74px;
+        left: 0px;
+        background: none;
     }
     .content-set {
-        bottom: 67px;
-        left: 30px;
-        width: 95%!important;
+        bottom: 0px;
+        left: 0;
+        width: 100%!important;
+        background: none;
+        right: 0;
+        min-height: 286px !important;
+    }
+    .po-li {
+        padding-left: 40px !important;
     }
     .are-set h1 {
-        font-size: 95px;
+        font-size: 72px;
     }
     .lab-left .citylabimg {
         left: 60px !important;
+    }
+    .right-txt p {
+        padding-top: 40px;
+        color: #231f20;
     }
     .we-set p {
         line-height: 180%;
@@ -53,8 +73,10 @@
     }
     .content-set .content-txt {
         position: absolute;
-        top: 125px;
-        left: 60px !important;
+        top: 0;
+        left: 0px !important;
+        white-space: pre-line;
+        width: 100%;
     }
     .pro-left h1 {
         line-height: 68px !important;
@@ -78,9 +100,7 @@
         left: 0px !important;
         width: 100% !important;
     }
-    .menu-back {
-        height: 500px !important;
-    }
+ 
     .contact-text {
         right: 80px !important;
     }
@@ -89,6 +109,7 @@
     }
     .con-set {
         height: 408px !important;
+        padding-top: 40px;
     }
     .info-contact {
         right: 15px !important;
@@ -101,10 +122,11 @@
         margin: 0px 28px !important;
     }
     .content-set .content-txt p {
-        font-size: 12px !important;
+        font-size: 13px !important;
+        white-space: pre-wrap;
     }
     .menu-set li {
-        font-size: 30px;
+        font-size: 38px;
     }
     .menu-set .menu-img1 {
         left: 21%;
@@ -139,177 +161,208 @@
         padding: 37px 28px;
     }
 }
+
 @media only screen and (min-width: 767px) and (max-width: 990px) {
-    .menu-set li{
-        font-size: 30px;
+    .menu-set li {
+        font-size: 40px;
     }
-    .menu-back{
-        height:505px;
+    .menu-back {
+        height: 650px;
     }
-    .menu-set ul{
-        padding:0;
+    .menu-set ul {
+        padding: 28px 0px;
     }
     .are-set h1 {
         font-size: 75px;
     }
-    .we-set p{
+    .we-set p {
         line-height: 1.8;
         font-size: 12px;
     }
-    .we-set{
-        padding-top:0px;
+    .we-set {
+        padding-top: 0px;
     }
-    .right-txt p{
-        padding-top:45px;
+    .right-txt p {
+        padding-top: 45px;
         font-size: 12px;
     }
-    .are-st .right-set{
-      background: none;
-        min-height: height:310px;
-        width:100%!important;
-    }
-    .are-st img{
-        width:100%;
-    }
-    .right-set .txt-set p{
-       line-height: 1.7;
-        font-size: 12px;
-    }
-    .right-set .txt-set{
-        width:100%;
-        left:67px;
-        top:8px;
-    }
-    .content-set{
+    .are-st .right-set {
         background: none;
-        left:0;
-        height:320px;
+        min-height: height: 310px;
         width: 100%!important;
     }
-    .content-set .content-txt{
-        top:40px;
-        width:725px;
-        left:0px;
+    .hee {
+        left: 115px;
+        bottom: 146px;
     }
-    .content-set .content-txt p{
+    img.hello {
+        bottom: 138px ;
+        left: 15px !important;
+    }
+    .right-set .txt-set p {
+        line-height: 1.7;
         font-size: 12px;
     }
-    .beleive .we-head h1{
+    .right-set .txt-set {
+        width: 100%;
+        left: 67px;
+        top: 8px;
+    }
+    .content-set {
+        background: none;
+        left: 0;
+        min-height: 310px;
+        bottom: 5px;
+    }
+    .content-set .content-txt {
+        top: 0px;
+        width: 725px;
+        left: 0px;
+    }
+    .wtd {
+        min-width: 0px !important;
+    }
+    .content-set .content-txt p {
+        font-size: 12px;
+    }
+    .beleive .we-head h1 {
         font-size: 75px;
     }
-    .learn-set{
+    .learn-set {
         line-height: 2;
     }
-    .stu-back{
-        height:366px;
+    .stu-back {
+        height: 366px;
     }
-    .stu-div
-    {
-        width:100%;
-        right:0;
+    .stu-div {
+        width: 100%;
+        right: 0;
     }
-    .stu-det.text-center{
+    .stu-det.text-center {
         padding-top: 20px;
-  margin: 0px 15px;
+        margin: 0px 15px;
     }
-    .stu-det.text-center p{
+    .stu-det.text-center p {
         font-size: 12px;
     }
-    .beleive .we-txts .circle-set{
-        zoom:0.6;
+    .beleive .we-txts .circle-set {
+        zoom: 0.6;
     }
-    .beleive .we-txt p{
+    .beleive .we-txt p {
         font-size: 12px;
     }
-    .mCSB_container{
+    .mCSB_container {
         overflow: auto!important;
-        height:295px!important;
+        height: 295px!important;
     }
-    .beleive .we-det{
-        height:330px;
-    }
-   .curriculum .curri-head h1{
-       font-size: 75px;
-   }
-    .curriculum ul.curri-center li{
-        font-size: 12px;
-        line-height: 15px;
-    }
-    .curriculum .curri-mk p{
-        font-size: 12px;
-        margin-bottom: 0;
-    }
-    .curriculum .curri-mk{
-        width:100%;
-    }
-    .lab-left .lab-title{
+  .beleive .we-det {
+  height: 463px;
+  padding-top: 36px;
+}
+    .beleive .we-dets {
+  height: 400px !important;
+  padding-top: 30px !important;
+}
+    .curriculum .curri-head h1 {
         font-size: 75px;
-        left:50px;
     }
-    .lab-left .lab-txt{
+  .curriculum ul.curri-center li {
+  font-size: 13px;
+  line-height: 25px;
+}
+    .curriculum .img-mkcurri {
+  position: relative;
+  width: 100%;
+  bottom: 10px;
+}
+  .curriculum .curri-mk p {
+  font-size: 13px;
+  line-height: 23px;
+}
+    .curriculum .curri-mk {
+        width: 100%;
+    }
+   .lab-left .lab-title {
+  font-size: 75px;
+  left: 50px;
+  top: 90px;
+}
+    .lab-left .lab-txt {
         font-size: 115px;
     }
-    .lab-left .lab-back{
-        height:300px;
-        background-size: contain;
+  .lab-left .lab-back {
+  height: 300px;
+  background-size: contain;
+  background-position-y: 60px;
+}
+  .lab-left .citylabimg {
+  left: 50px;
+  top: 100px;
+  zoom: 0.8555;
+}
+    .labs {
+        margin: 15px 0 80px;
     }
-    .lab-left .citylabimg{
-        left:23px;
-        top:45px;
-    }
-    .labs{
-        margin:15px 0 80px;
-    }
-    .lab-right p{
-        font-size: 12px;
-        margin:0;
-        line-height: 18px;
-    }
-    .lab-right ol li{
-        font-size: 12px;
-    }
-    .fcontact{
+.lab-right p {
+  font-size: 13px;
+  margin: 0;
+  line-height: 22px;
+}
+   .lab-right ol li {
+  font-size: 13px;
+  line-height: 22px;
+}
+    .fcontact {
         font-size: 120px;
     }
-    .stori-head .head-mid h1{
+    .stori-head .head-mid h1 {
         font-size: 102px;
     }
-    .stori-head ul{
-        padding:27px 34px;
+    .stori-head ul {
+        padding: 27px 34px;
         font-size: 13px;
         line-height: 1.6;
     }
-    .head-mid img{
-        zoom:0.7;
+    .head-mid img {
+        zoom: 0.7;
     }
-    .line{
-        background-position-y:99px;
+    .line {
+        background-position-y: 99px;
         height: 145px;
     }
-    .det-stor .left-det img, .det-right img{
-        width:auto;
+    .det-stor .left-det img,
+    .det-right img {
+        width: auto;
     }
-    .studentrow{
+    .studentrow {
         padding-bottom: 20px!important;
     }
-    .contact-text{
-        right:75px;
+    .contact-text {
+        right: 75px;
     }
-    .info-contact{
-      top: 30px;
-  right: -40px;
+    .info-contact {
+        top: 30px;
+        right: -40px;
     }
-    .contact-text .text{
-       left: 43px;
-  top: 77px;
+    .contact-text .text {
+        left: 43px;
+        top: 77px;
     }
-    .info-contact p{
+    .info-contact p {
         font-size: 12px;
     }
-    .con-set{
-        height:300px;
-    }
+   .con-set {
+  min-height: 354px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    
+}
+
+@media screen and (max-width: 767px) {
+.log-set img {
+
+  zoom: 0.9;
+}
+
 }

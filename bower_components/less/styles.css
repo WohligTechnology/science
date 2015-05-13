@@ -260,7 +260,7 @@ a:hover {
 .content-set {
   background: url("../img/bubble2.png") no-repeat center center;
   background-size: 100% 100%;
-  height: 439px;
+  min-height: 439px;
   position: relative;
   bottom: 40px;
   left: 60px;
@@ -721,10 +721,8 @@ img.hello {
   font-weight: 700;
 }
 .con-set {
-  background-size: 100% 100%;
   color: #f58220;
-  height: 472px;
-  background-position-x: 151px;
+  min-height: 472px;
 }
 .contact-text {
   font-family: trashhand;
@@ -873,6 +871,10 @@ img.hello {
 .cl-right {
   margin: -138px 20px 0px 20px;
 }
+.ups {
+  position: relative;
+  bottom: 150px;
+}
 .curriculum .curri-head h1 {
   font-size: 100px;
   color: #f58220;
@@ -955,4 +957,10 @@ img.hello {
 }
 .labs {
   margin: 58px 0 80px;
+}
+.po-li {
+  padding-left: 36px;
+}
+.wtd {
+  min-width: 960px;
 }

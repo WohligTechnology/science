@@ -44,38 +44,38 @@ $(document).ready(function () {
 
 
     $(".circle1").click(function () {
-        $(".we-txt").hide(500);
+        $(".we-txt").hide(0);
         $(".round1").fadeIn();
     });
     $(".circle2").click(function () {
         //          $(this).toggle();
-        $(".we-txt").hide(500);
+        $(".we-txt").hide(0);
         $(".round2").fadeIn();
     });
     $(".circle3").click(function () {
-        $(".we-txt").hide(500);
+        $(".we-txt").hide(0);
         $(".round3").fadeIn();
     });
     $(".circle4").click(function () {
-        $(".we-txt").hide(500);
+        $(".we-txt").hide(0);
         $(".round4").fadeIn();
     });
 
     $("#shw").click(function () {
         $(".round1").hide();
-        $(".we-txt").fadeIn(500);
+        $(".we-txt").fadeIn(0);
     });
     $("#shw2").click(function () {
         $(".round2").hide();
-        $(".we-txt").fadeIn(500);
+        $(".we-txt").fadeIn(0);
     });
     $("#shw3").click(function () {
         $(".round3").hide();
-        $(".we-txt").fadeIn(500);
+        $(".we-txt").fadeIn(0);
     });
     $("#shw4").click(function () {
         $(".round4").hide();
-        $(".we-txt").fadeIn(500);
+        $(".we-txt").fadeIn(0);
     });
 
 
