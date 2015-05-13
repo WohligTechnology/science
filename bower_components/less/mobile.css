@@ -361,8 +361,44 @@
 
 @media screen and (max-width: 767px) {
 .log-set img {
-
   zoom: 0.9;
 }
+    .menu-set li{
+        font-size: 30px;
+    }
+    .we-set p{
+        line-height: 20px;
+        text-align: center;
+        font-size: 11px;
+    }
+    .are-set h1{
+        font-size: 85px;
+        text-align: center;
+    }
+    .right-txt p{
+        padding-top: 0px;
+        text-align: center;
+        font-size: 11px;
+    }
+    .right-set .txt-set p,.content-set .content-txt p{
+        font-size: 11px;
+  line-height: 18px;
+    }
+    .right-set,.content-set{
+        background: none;
+          height: 265px;
+         min-height: 365px;
+    }
+    .wtd,.right-set .txt-set,.content-set .content-txt{
+        width: 100%;
+        left:0px;
+        top:15px;
+    }
+    .frnds{
+        text-align: -webkit-center;
+    }
+    .wtd{
+        min-width:100%;
+    }
 
 }
