@@ -386,7 +386,7 @@
     }
     .right-set,.content-set{
         background: none;
-          height: 265px;
+          height: 290px;
          min-height: 365px;
     }
     .wtd,.right-set .txt-set,.content-set .content-txt{
@@ -399,6 +399,75 @@
     }
     .wtd{
         min-width:100%;
+    }
+    .beleive .we-head h1{
+        font-size: 50px;
+  padding-top: 15px;
+    }
+    .we-lf{
+        text-align: center!important;
+    }
+    .beleive .we-pic{
+        top: 0;
+        width:70%;
+        margin:-35px auto 15px auto;
+    }
+    .mCustomScrollBox{
+        height: 70%!important;
+        margin-top: 15px;
+    }
+    .beleive .we-txt p,.beleive .we-txt li,.pro-left p,.stu-dt p,.right-po ul,.stu-dts p,.curriculum .curri-mk p,.curriculum ul.curri-center li{
+        font-size: 11px;
+    }
+    .footer .foot-set p{
+        padding: 0 10px;
+    }
+    .beleive .we-pics img{
+        width:50%;
+        height: auto;
+    }
+    .beleive .we-pics{
+        top:0;
+        text-align: center;
+    }
+    .beleive .we-det{
+        height: 605px;
+    }
+    .beleive .we-txts .circle-set{
+        width:100%;
+        zoom:0.7;
+    }
+    .beleive .we-pics .stu-img{
+        width:50%;
+        height: auto;
+    }
+    .ups{
+        bottom:0;
+    }
+    .labs{
+        margin:0;
+    }
+    .cl-right{
+        margin: 0;
+    }
+    .stu-det.text-center p{
+        font-size: 10px;
+    }
+    .curriculum .curri-head h1{
+        font-size: 55px;
+        line-height: 35px;
+    }
+    .pro-left h1{
+        font-size: 55px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .pro-right .circle-set{
+        width: 100%;
+        zoom: 0.75;
+    }
+    .po-li{
+        padding-left: 60px;
     }
 
 }
