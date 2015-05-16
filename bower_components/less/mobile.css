@@ -416,7 +416,7 @@
         height: 70%!important;
         margin-top: 15px;
     }
-    .beleive .we-txt p,.beleive .we-txt li,.pro-left p,.stu-dt p,.right-po ul,.stu-dts p,.curriculum .curri-mk p,.curriculum ul.curri-center li{
+    .beleive .we-txt p,.beleive .we-txt li,.pro-left p,.stu-dt p,.right-po ul,.stu-dts p,.curriculum .curri-mk p,.curriculum ul.curri-center li,.slider-stor .det-cont{
         font-size: 11px;
     }
     .footer .foot-set p{
@@ -458,7 +458,7 @@
         line-height: 35px;
     }
     .pro-left h1{
-        font-size: 55px;
+        font-size: 50px;
         line-height: 35px;
         text-align: center;
     }
@@ -469,5 +469,51 @@
     .po-li{
         padding-left: 60px;
     }
+    .lab-left .lab-title{
+        left:147px;
+    }
+    .lab-left .citylabimg{
+        left:142px;
+    }
+    .stori-head .head-mid h1{
+        margin-right: 0;
+        font-size: 70px;
+    }
+    .head-mid img{
+        zoom:0.6;
+    }
+    .stori-head ul{
+        line-height: 1.5;
+        font-size: 11px;
+    }
+    .slider{
+        width:270px!important;
+    }
+    .read-set{
+        height: 670px;
+    }
+    .info-contact{
+        top:15px;
+        left:115px;
+    }
+    .contact-text .text{
+        left: 30px;
+  top: 58px;
+    }
+    .fcontact{
+          font-size: 90px;
+  line-height: 0.8;
+    }
+    .menu-set ul{
+          padding: 90px 0px 0px;
+    }
+    .contact-text{
+        left: 60px;
+  top: 32px;
+    }
+    .lab-right,.beleive .we-txt p,.beleive .we-txt li,.pro-left p,.slider-stor .det-cont{
+        text-align: center;
+    }
+
 
 }
