@@ -100,7 +100,6 @@
         left: 0px !important;
         width: 100% !important;
     }
- 
     .contact-text {
         right: 80px !important;
     }
@@ -196,7 +195,7 @@
         bottom: 146px;
     }
     img.hello {
-        bottom: 138px ;
+        bottom: 138px;
         left: 15px !important;
     }
     .right-set .txt-set p {
@@ -255,63 +254,63 @@
         overflow: auto!important;
         height: 295px!important;
     }
-  .beleive .we-det {
-  height: 463px;
-  padding-top: 36px;
-}
+    .beleive .we-det {
+        height: 463px;
+        padding-top: 36px;
+    }
     .beleive .we-dets {
-  height: 400px !important;
-  padding-top: 30px !important;
-}
+        height: 400px !important;
+        padding-top: 30px !important;
+    }
     .curriculum .curri-head h1 {
         font-size: 75px;
     }
-  .curriculum ul.curri-center li {
-  font-size: 13px;
-  line-height: 25px;
-}
+    .curriculum ul.curri-center li {
+        font-size: 13px;
+        line-height: 25px;
+    }
     .curriculum .img-mkcurri {
-  position: relative;
-  width: 100%;
-  bottom: 10px;
-}
-  .curriculum .curri-mk p {
-  font-size: 13px;
-  line-height: 23px;
-}
+        position: relative;
+        width: 100%;
+        bottom: 10px;
+    }
+    .curriculum .curri-mk p {
+        font-size: 13px;
+        line-height: 23px;
+    }
     .curriculum .curri-mk {
         width: 100%;
     }
-   .lab-left .lab-title {
-  font-size: 75px;
-  left: 50px;
-  top: 90px;
-}
+    .lab-left .lab-title {
+        font-size: 75px;
+        left: 50px;
+        top: 90px;
+    }
     .lab-left .lab-txt {
         font-size: 115px;
     }
-  .lab-left .lab-back {
-  height: 300px;
-  background-size: contain;
-  background-position-y: 60px;
-}
-  .lab-left .citylabimg {
-  left: 50px;
-  top: 100px;
-  zoom: 0.8555;
-}
+    .lab-left .lab-back {
+        height: 300px;
+        background-size: contain;
+        background-position-y: 60px;
+    }
+    .lab-left .citylabimg {
+        left: 50px;
+        top: 100px;
+        zoom: 0.8555;
+    }
     .labs {
         margin: 15px 0 80px;
     }
-.lab-right p {
-  font-size: 13px;
-  margin: 0;
-  line-height: 22px;
-}
-   .lab-right ol li {
-  font-size: 13px;
-  line-height: 22px;
-}
+    .lab-right p {
+        font-size: 13px;
+        margin: 0;
+        line-height: 22px;
+    }
+    .lab-right ol li {
+        font-size: 13px;
+        line-height: 22px;
+    }
     .fcontact {
         font-size: 120px;
     }
@@ -351,245 +350,317 @@
     .info-contact p {
         font-size: 12px;
     }
-   .con-set {
-  min-height: 354px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
+    .con-set {
+        min-height: 354px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 @media screen and (max-width: 767px) {
-.log-set img {
-  zoom: 0.9;
-}
-    .menu-set li{
+    .log-set img {
+        zoom: 0.9;
+    }
+    .menu-set li {
         font-size: 30px;
     }
-    .we-set p{
+    .we-set p {
         line-height: 20px;
         text-align: center;
         font-size: 11px;
     }
-    .are-set h1{
+    .are-set h1 {
         font-size: 85px;
         text-align: center;
     }
-    .right-txt p{
+    .right-txt p {
         padding-top: 0px;
         text-align: center;
         font-size: 11px;
     }
-    .right-set .txt-set p,.content-set .content-txt p{
+    .right-set .txt-set p,
+    .content-set .content-txt p {
         font-size: 11px;
-  line-height: 18px;
+        line-height: 18px;
     }
-    .right-set,.content-set{
+    .right-set,
+    .content-set {
         background: none;
-          height: 290px;
-         min-height: 365px;
+        height: 290px;
+        min-height: 365px;
     }
-    .wtd,.right-set .txt-set,.content-set .content-txt{
+    .wtd,
+    .right-set .txt-set,
+    .content-set .content-txt {
         width: 100%;
-        left:0px;
-        top:15px;
+        left: 0px;
+        top: 15px;
     }
-    .frnds{
+    .frnds {
         text-align: -webkit-center;
     }
-    .wtd{
-        min-width:100%;
+    .wtd {
+        min-width: 100%;
     }
-    .beleive .we-head h1{
+    .beleive .we-head h1 {
         font-size: 50px;
-  padding-top: 15px;
+        padding-top: 15px;
     }
-    .we-lf{
+    .we-lf {
         text-align: center!important;
     }
-    .beleive .we-pic{
+    .beleive .we-pic {
         top: 0;
-        width:70%;
-        margin:-35px auto 15px auto;
+        width: 70%;
+        margin: -35px auto 15px auto;
     }
-    .mCustomScrollBox{
+    .mCustomScrollBox {
         height: 70%!important;
         margin-top: 15px;
     }
-    .beleive .we-txt p,.beleive .we-txt li,.pro-left p,.stu-dt p,.right-po ul,.stu-dts p,.curriculum .curri-mk p,.curriculum ul.curri-center li,.slider-stor .det-cont{
+    .beleive .we-txt p,
+    .beleive .we-txt li,
+    .pro-left p,
+    .stu-dt p,
+    .right-po ul,
+    .stu-dts p,
+    .curriculum .curri-mk p,
+    .curriculum ul.curri-center li,
+    .slider-stor .det-cont {
         font-size: 11px;
     }
-    .footer .foot-set p{
+    .footer .foot-set p {
         padding: 0 10px;
     }
-    .beleive .we-pics img{
-        width:50%;
+    .beleive .we-pics img {
+        width: 50%;
         height: auto;
     }
-    .beleive .we-pics{
-        top:0;
+    .beleive .we-pics {
+        top: 0;
         text-align: center;
     }
-    .beleive .we-det{
+    .beleive .we-det {
         height: 605px;
     }
-    .beleive .we-txts .circle-set{
-        width:100%;
-        zoom:0.7;
+    .beleive .we-txts .circle-set {
+        width: 100%;
+        zoom: 0.7;
     }
-    .beleive .we-pics .stu-img{
-        width:50%;
+    .beleive .we-pics .stu-img {
+        width: 50%;
         height: auto;
     }
-    .ups{
-        bottom:0;
+    .ups {
+        bottom: 0;
     }
-    .labs{
-        margin:0;
-    }
-    .cl-right{
+    .labs {
         margin: 0;
     }
-    .stu-det.text-center p{
+    .cl-right {
+        margin: 0;
+    }
+    .stu-det.text-center p {
         font-size: 10px;
     }
-    .curriculum .curri-head h1{
+    .curriculum .curri-head h1 {
         font-size: 55px;
         line-height: 35px;
     }
-    .pro-left h1{
+    .pro-left h1 {
         font-size: 50px;
         line-height: 35px;
         text-align: center;
     }
-    .pro-right .circle-set{
+    .pro-right .circle-set {
         width: 100%;
         zoom: 0.75;
     }
-    .po-li{
+    .po-li {
         padding-left: 60px;
     }
-    .lab-left .lab-title{
-        left:147px;
+    .lab-left .lab-title {
+        left: 147px;
     }
-    .lab-left .citylabimg{
-        left:142px;
+    .lab-left .citylabimg {
+        left: 142px;
     }
-    .stori-head .head-mid h1{
+    .stori-head .head-mid h1 {
         margin-right: 0;
         font-size: 70px;
     }
-    .head-mid img{
-        zoom:0.6;
+    .head-mid img {
+        zoom: 0.6;
     }
-    .stori-head ul{
+    .stori-head ul {
         line-height: 1.5;
         font-size: 11px;
     }
-    .slider{
-        width:270px!important;
+    .slider {
+        width: 270px!important;
     }
-    .read-set{
+    .read-set {
         height: 670px;
     }
-    .info-contact{
-        top:15px;
-        left:115px;
+    .info-contact {
+        top: 15px;
+        left: 115px;
     }
-    .contact-text .text{
+    .contact-text .text {
         left: 30px;
-  top: 58px;
+        top: 58px;
     }
-    .fcontact{
-          font-size: 90px;
-  line-height: 0.8;
+    .fcontact {
+        font-size: 90px;
+        line-height: 0.8;
     }
-    .menu-set ul{
-          padding: 90px 0px 0px;
+    .menu-set ul {
+        padding: 90px 0px 0px;
     }
-    .contact-text{
+    .contact-text {
         left: 60px;
-  top: 32px;
+        top: 32px;
     }
-    .lab-right,.beleive .we-txt p,.beleive .we-txt li,.pro-left p,.slider-stor .det-cont{
+    .lab-right,
+    .beleive .we-txt p,
+    .beleive .we-txt li,
+    .pro-left p,
+    .slider-stor .det-cont {
         text-align: center;
     }
-    .menu-set img{
+    .menu-set img {
         display: none;
     }
-    .menu-set li{
+    .menu-set li {
         font-size: 16px;
     }
-    .lab li{
-        padding:0!important;
+    .lab li {
+        padding: 0!important;
     }
 }
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    .po-li{
+    .po-li {
         padding-left: 0;
     }
-    .log-set img{
-        zoom:0.6;
+    .log-set img {
+        zoom: 0.6;
     }
-    .social-set ul{
-        display:inline;
+    .social-set ul {
+        display: inline;
     }
-    .social-set,.social-set ul li{
+    .social-set,
+    .social-set ul li {
         padding-right: 0;
     }
-    .menu-back{
+    .menu-back {
         height: 465px;
     }
-    .menu-set li{
+    .menu-set li {
         font-size: 22px;
     }
-    .menu-set ul{
-        padding:60px 0 0;
+    .menu-set ul {
+        padding: 60px 0 0;
     }
-    .footer .foot-set p{
+    .footer .foot-set p {
         font-size: 10px;
     }
-    .are-set h1{
+    .are-set h1 {
         font-size: 55px;
     }
-    .content-set{
+    .content-set {
         min-height: 490px;
     }
-    .right-set{
+    .right-set {
         min-height: 395px;
     }
-    .we-lf{
+    .we-lf {
         padding-right: 0!important;
     }
-    .we-head h1,.beleive .we-txt{
-        margin:0;
+    .we-head h1,
+    .beleive .we-txt {
+        margin: 0;
     }
-    .beleive .we-head h1{
+    .beleive .we-head h1 {
         font-size: 40px;
         padding-top: 20px;
         line-height: 0.5;
     }
-    .stu-det.text-center{
-        margin:0px;
+    .stu-det.text-center {
+        margin: 0px;
     }
-    .col-xs-11{
+    .col-xs-11 {
         width: 89.666667%;
     }
-    .beleive .we-pic{
-        width:100%;
+    .beleive .we-pic {
+        width: 100%;
     }
-    .beleive .we-txts .circle-set{
-        zoom:0.4;
+    .beleive .we-txts .circle-set {
+        zoom: 0.4;
     }
-    .pro-set{
+    .pro-set {
         padding: 0;
     }
-    .pro-left h1{
+    .pro-left h1 {
         font-size: 45px;
         line-height: 19px;
     }
-    .pro-right .circle-set{
-        zoom:0.48;
+    .pro-right .circle-set {
+        zoom: 0.48;
     }
-    
+    .curriculum .curri-mk {
+        width: 95%;
+    }
+    .curri-center {
+        padding: 0px;
+    }
+    .curriculum .img-curri img {
+        padding-top: 40px;
+    }
+    .lab-left .lab-title {
+        font-size: 75px;
+        top: 35px;
+        left: 75px;
+    }
+    .lab-left .citylabimg {
+        left: 60px;
+        top: 35px;
+    }
+    .lab-left .lab-txt {
+        font-size: 140px;
+    }
+    .lab-right p,
+    .lab-right ol li {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .lab-left .lab-back {
+        height: 285px;
+    }
+    .lab-right {
+        margin-top: 30px;
+    }
+    .social-set ul li img {
+        zoom: 0.7;
+    }
+    .stori-head ul {
+        padding: 0;
+    }
+    .stori-head .col-xs-7 {
+        width: 50%!important;
+    }
+    .head-mid img {
+        zoom: 0.5;
+    }
+    .line {
+        background-position-y: 90px;
+        height: 130px;
+    }
+    .stori-head .head-mid h1 {
+        font-size: 30px;
+    }
+    .det-stor .right-det,.det-stor .left-det{
+        width:75%;
+    }
 }
