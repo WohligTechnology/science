@@ -161,7 +161,7 @@ a:hover {
 .menu-back {
     background: url("../img/backk.png") no-repeat center;
     background-size: 100% 97%;
-    height: 665px;
+    height: 643px;
 }
 
 .menu-set {
@@ -229,7 +229,7 @@ a:hover {
     li {
         position: relative;
         cursor: pointer;
-        font-size: 42px;
+        font-size: 40px;
         img {
             opacity: 0;
             transition: all 2s ease;
@@ -260,7 +260,8 @@ a:hover {
     padding-top: 20px;
     p {
         color: @col;
-        line-height: 30px;
+         line-height: 22px;
+  font-size: 13px;
     }
 }
 
@@ -291,7 +292,7 @@ a:hover {
         p {
             text-align: center;
             color: rgb(245, 130, 32);
-            font-size: 13px;
+            font-size: 12.5px;
             line-height: 22px;
         }
     }
@@ -321,13 +322,14 @@ a:hover {
 }
 
 .footer {
-    background: rgb(245, 130, 32);
     height: 35px;
-    background: #f58220;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    z-index: 999;
+  background: #FFFFFF;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  border-top: 1px solid grey;
+  color: #231f20;
     .foot-set {
         p {
             font-size: 12px;
@@ -411,13 +413,16 @@ img.hello {
 .det-stor {
     padding-top: 10px;
     .right-det {
-        background: rgb(230, 231, 232);
+        background: #fff;
         padding: 10px;
+          border: 3px solid rgb(148, 150, 153);
+          margin-bottom: 20px;
     }
     .left-det {
-        background: @grey;
+        background: #fff;
         width: 100%;
         padding: 10px 10px 20px 10px;
+          border: 3px solid rgb(148, 150, 153);
         img {
             height: 317px;
             width: 100%;
@@ -426,7 +431,7 @@ img.hello {
             display: inline;
         }
         h5 {
-            color: @black;
+            color: @text;
             font-weight: 700;
         }
         p {
@@ -438,7 +443,7 @@ img.hello {
         a {
             color: orange;
             text-align: right !important;
-            font-size: 11px;
+            font-size: 13px;
             text-decoration: none;
             float: right;
             cursor: pointer;
@@ -458,7 +463,7 @@ img.hello {
 
 .txt-det {
     h5 {
-        color: @black;
+        color: @text;
         font-weight: 700;
         text-align: center;
     }
@@ -471,7 +476,7 @@ img.hello {
     a {
         color: orange;
         text-align: right !important;
-        font-size: 11px;
+        font-size: 13px;
         text-decoration: none;
         cursor: pointer;
     }
@@ -1076,4 +1081,7 @@ padding-left: 36px;
 }
 .wtd{
   min-width: 960px;
+}
+.content.back-grey {
+    background: rgb(230, 231, 232);
 }

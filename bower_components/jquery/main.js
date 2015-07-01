@@ -24,6 +24,7 @@ $(document).ready(function () {
     $('.footer').delay(5500).fadeIn(500);
     $('.ups').delay(5500).fadeIn(500);
     $('.homes').delay(5500).fadeIn(500);
+//    $('.who').delay(5500).fadeIn(500);
 
 
 
