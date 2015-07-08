@@ -220,9 +220,6 @@ a:hover {
 .who-set {
   text-align: center;
 }
-.we-set {
-  padding-top: 20px;
-}
 .we-set p {
   color: #231f20;
   line-height: 22px;
@@ -241,7 +238,7 @@ a:hover {
 .right-set {
   background: url("../img/bubble.png") no-repeat left top;
   background-size: 100% 100%;
-  height: 330px;
+  height: 269px;
   position: relative;
   left: -90px;
 }
@@ -260,16 +257,16 @@ a:hover {
 }
 .content-set {
   background: url("../img/bubble2.png") no-repeat center center;
-  background-size: 100% 100%;
-  min-height: 439px;
+  background-size: 82% 99%;
+  min-height: 338px;
   position: relative;
-  bottom: 40px;
-  left: 60px;
+  bottom: 94px;
+  left: -13px;
 }
 .content-set .content-txt {
   position: absolute;
-  top: 125px;
-  left: 90px;
+  top: 90px;
+  left: 157px;
   width: 774px;
   cursor: pointer;
 }
@@ -972,4 +969,10 @@ img.hello {
 }
 .content.back-grey {
   background: #e6e7e8;
+}
+.who-set a img {
+  margin-top: -10px;
+}
+p.linez {
+  line-height: 99% !important;
 }

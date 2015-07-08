@@ -24,7 +24,8 @@ $(document).ready(function () {
     $('.footer').delay(5500).fadeIn(500);
     $('.ups').delay(5500).fadeIn(500);
     $('.homes').delay(5500).fadeIn(500);
-//    $('.who').delay(5500).fadeIn(500);
+    $('.who').delay(5500).fadeIn(500);
+    $('.who-set').delay(5500).fadeIn(500);
 
 
 
@@ -128,6 +129,7 @@ $(document).ready(function () {
     $("#pro-set5").hide();
 
     $(".homes").hide();
+    $(".who-set").hide();
     $("#who").hide();
     $("#we").hide();
     $("#student").hide();
@@ -185,7 +187,7 @@ $(document).ready(function () {
     $(".ups").click(function () {
 
         $(".homes").fadeIn(1000);
-        $(".who").hide();
+        $(".who").fadeIn(1000);
         $(".webl").hide();
         $("#student").hide();
         $("#pro").hide();
