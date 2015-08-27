@@ -4,19 +4,19 @@ var apiurl = adminurl + "index.php/json/";
 
 var allstories = [];
 
-$(window).load(function() {
+$(window).load(function () {
 
     //  $('.footer').hide();
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
     $(".section").css("min-height", $(window).height());
-    $(window).resize(function() {
+    $(window).resize(function () {
         $(".section").css("min-height", $(window).height());
     });
 
 
-    $('.landing').hide(4510);
+    $('.landing').hide(5510);
     $('.footer').hide(0);
     $('.ups').hide(0);
 
@@ -24,7 +24,7 @@ $(document).ready(function() {
     $('.footer').delay(5500).fadeIn(500);
     $('.ups').delay(5500).fadeIn(500);
     $('.homes').delay(5500).fadeIn(500);
-    $('.who').delay(5500).fadeIn(500);
+//    $('.who').delay(5500).fadeIn(500);
     //    $('.who-set').delay(5500).fadeIn(500);
 
 
@@ -32,87 +32,136 @@ $(document).ready(function() {
 
 
 
-    $("#hides, #hides1, #hides2, #hides3, #hides4, #hides5, #hides6, #hides7, #hides8, #hides9, #hides10, #hides11").click(function() {
+    $("#hides, #hides1, #hides2, #hides3, #hides4, #hides5, #hides6, #hides7, #hides8, #hides9, #hides10, #hides11").click(function () {
         $(".tab_content").hide(1000);
         $(".read-set").show();
 
     });
 
-    $("#sum-img").click(function() {
+    $("#sum-img").click(function () {
 
         $(".read-set").hide();
         $(".tab_content").show(1000);
     });
 
 
-    $(".circle1").click(function() {
+    $(".circle1").click(function () {
         $(".we-txt").hide(0);
         $(".round1").fadeIn();
     });
-    $(".circle2").click(function() {
+    $(".circle2").click(function () {
         //          $(this).toggle();
         $(".we-txt").hide(0);
         $(".round2").fadeIn();
     });
-    $(".circle3").click(function() {
+    $(".circle3").click(function () {
         $(".we-txt").hide(0);
         $(".round3").fadeIn();
     });
-    $(".circle4").click(function() {
+    $(".circle4").click(function () {
         $(".we-txt").hide(0);
         $(".round4").fadeIn();
     });
 
-    $("#shw").click(function() {
+    $("#shw").click(function () {
         $(".round1").hide();
         $(".we-txt").fadeIn(0);
     });
-    $("#shw2").click(function() {
+    $("#shw2").click(function () {
         $(".round2").hide();
         $(".we-txt").fadeIn(0);
     });
-    $("#shw3").click(function() {
+    $("#shw3").click(function () {
         $(".round3").hide();
         $(".we-txt").fadeIn(0);
     });
-    $("#shw4").click(function() {
+    $("#shw4").click(function () {
         $(".round4").hide();
         $(".we-txt").fadeIn(0);
     });
 
 
 
-    $("#cl1").click(function() {
+    $("#sl").click(function () {
+        $("#stud-set").show();
+        $("#stud-set1").hide(500);
+        $("#stud-set2").hide(500);
+        $("#stud-set3").hide(500);
+        $("#stud-set4").hide(500);
+        $("#stud-set5").hide(500);
+    });  
+    $("#sl1").click(function () {
+        $("#stud-set").hide(500);
+        $("#stud-set1").show();
+        $("#stud-set2").hide(500);
+        $("#stud-set3").hide(500);
+        $("#stud-set4").hide(500);
+        $("#stud-set5").hide(500);
+    });
+    $("#sl2").click(function () {
+        $("#stud-set").hide(500);
+        $("#stud-set1").hide(500);
+        $("#stud-set2").show();
+        $("#stud-set3").hide(500);
+        $("#stud-set4").hide(500);
+        $("#stud-set5").hide(500);
+    });
+    $("#sl3").click(function () {
+        $("#stud-set").hide(500);
+        $("#stud-set1").hide(500);
+        $("#stud-set2").hide(500);
+        $("#stud-set3").show();
+        $("#stud-set4").hide(500);
+        $("#stud-set5").hide(500);
+    });
+    $("#sl4").click(function () {
+        $("#stud-set").hide(500);
+        $("#stud-set1").hide(500);
+        $("#stud-set2").hide(500);
+        $("#stud-set3").hide(500);
+        $("#stud-set4").show();
+        $("#stud-set5").hide(500);
+    });
+    $("#sl5").click(function () {
+        $("#stud-set").hide(500);
+        $("#stud-set1").hide(500);
+        $("#stud-set2").hide(500);
+        $("#stud-set3").hide(500);
+        $("#stud-set4").hide(500);
+        $("#stud-set5").show();
+    });
+
+    $("#cl1").click(function () {
         $("#pro-set").hide(500);
         $("#pro-set2").show();
     });
-    $("#cl2").click(function() {
+    $("#cl2").click(function () {
         //          $(this).toggle();
         $("#pro-set").hide(500);
         $("#pro-set3").show();
     });
-    $("#cl3").click(function() {
+    $("#cl3").click(function () {
         $("#pro-set").hide(500);
         $("#pro-set4").show();
     });
-    $("#cl4").click(function() {
+    $("#cl4").click(function () {
         $("#pro-set").hide(500);
         $("#pro-set5").show();
     });
 
-    $("#op1").click(function() {
+    $("#op1").click(function () {
         $("#pro-set2").hide();
         $("#pro-set").fadeIn(500);
     });
-    $("#op2").click(function() {
+    $("#op2").click(function () {
         $("#pro-set3").hide();
         $("#pro-set").fadeIn(500);
     });
-    $("#op3").click(function() {
+    $("#op3").click(function () {
         $("#pro-set4").hide();
         $("#pro-set").fadeIn(500);
     });
-    $("#op4").click(function() {
+    $("#op4").click(function () {
         $("#pro-set5").hide();
         $("#pro-set").fadeIn(500);
     });
@@ -128,6 +177,12 @@ $(document).ready(function() {
     $("#pro-set4").hide();
     $("#pro-set5").hide();
 
+    $("#stud-set1").hide();
+    $("#stud-set2").hide();
+    $("#stud-set3").hide();
+    $("#stud-set4").hide();
+    $("#stud-set5").hide();
+
     $(".homes").hide();
     $(".who-set").hide();
     $("#who").hide();
@@ -142,59 +197,52 @@ $(document).ready(function() {
     //    ******page show query******
 
 
-    $(".whoweare").click(function() {
+    $(".whoweare").click(function () {
         $(".homes").hide();
-//        $(".who").hide();
-        //        $(".who").fadeIn(1000);
+        $(".who").fadeIn(1000);
     });
 
-    $(".webel").click(function() {
+    $(".webel").click(function () {
         $(".homes").hide();
-        $(".who").hide();
         $(".webl").fadeIn(1000);
     });
 
-    $(".student").click(function() {
+    $(".student").click(function () {
         $(".homes").hide();
-        $(".who").hide();
         $(".stlarn").fadeIn(1000);
     });
 
-    $(".pro").click(function() {
+    $(".pro").click(function () {
         $(".homes").hide();
-        $(".who").hide();
         $(".pro").fadeIn(1000);
     });
 
-    $(".curriculum").click(function() {
+    $(".curriculum").click(function () {
         $(".homes").hide();
-        $(".who").hide();
         $(".curriculum").fadeIn(1000);
     });
 
-    $(".lab").click(function() {
+    $(".lab").click(function () {
         $(".homes").hide();
-        $(".who").hide();
         $(".lab").fadeIn(1000);
     });
 
-    $(".stories").click(function() {
+    $(".stories").click(function () {
         $(".homes").hide();
         $(".stori").fadeIn(1000);
     });
 
-    $(".contact").click(function() {
+    $(".contact").click(function () {
         $(".homes").hide();
-        $(".who").hide();
         $(".contact").fadeIn(1000);
     });
 
 
 
-    $(".ups").click(function() {
+    $(".ups").click(function () {
 
         $(".homes").fadeIn(1000);
-        $(".who").fadeIn(1000);
+        $(".who").hide(1000);
         $(".webl").hide();
         $("#student").hide();
         $("#pro").hide();
@@ -209,22 +257,22 @@ $(document).ready(function() {
 
     //    *******end*********
 
-    $('.txt-set').hover(function() {
+    $('.txt-set').hover(function () {
         $('.hee').fadeIn(500)
-    }, function() {
+    }, function () {
         $('.hee').fadeOut(500)
     })
 
-    $('.content-txt').hover(function() {
+    $('.content-txt').hover(function () {
         $('.hello').fadeIn(500)
-    }, function() {
+    }, function () {
         $('.hello').fadeOut(500)
     })
 
     $(".hee").hide();
     $(".hello").hide();
 
-    $("#tabs li").click(function() {
+    $("#tabs li").click(function () {
         //  First remove class "active" from currently active tab
         $("#tabs li").removeClass('active');
 
@@ -235,30 +283,30 @@ $(document).ready(function() {
         console.log(filter);
         switch (filter) {
 
-            case "all":
-                {
-                    $(".teacherrow").show();
-                    $(".studentrow").show();
-                }
-                break;
-            case "student":
-                {
-                    $(".teacherrow").hide();
-                    $(".studentrow").show();
-                }
-                break;
-            case "teacher":
-                {
-                    $(".teacherrow").show();
-                    $(".studentrow").hide();
-                }
-                break;
+        case "all":
+            {
+                $(".teacherrow").show();
+                $(".studentrow").show();
+            }
+            break;
+        case "student":
+            {
+                $(".teacherrow").hide();
+                $(".studentrow").show();
+            }
+            break;
+        case "teacher":
+            {
+                $(".teacherrow").show();
+                $(".studentrow").hide();
+            }
+            break;
         }
 
         return false;
     });
 
-    $("#circle1").click(function() {
+    $("#circle1").click(function () {
         $(".round1").show();
     });
 
@@ -313,7 +361,7 @@ $(document).ready(function() {
         for (var i = 0; i < story.images.length; i++) {
             $(".readmorepage .fullstoryimages ul").append(addimageslider(story.images[i]));
         }
-        $(".readmorepage .fullstoryimages ul img").load(function() {
+        $(".readmorepage .fullstoryimages ul img").load(function () {
             var variableWidth = document.querySelector('.js_variablewidth');
             lory(variableWidth, {
                 rewind: true
@@ -330,14 +378,14 @@ $(document).ready(function() {
         }
     }
 
-    $(".storyreadmore").click(function() {
+    $(".storyreadmore").click(function () {
         var storyid = $(this).attr("data-storyid");
         createstorydetailfromid(storyid);
         console.log(storyid);
 
     });
 
-    $.getJSON(apiurl + "getallstories", function(data) {
+    $.getJSON(apiurl + "getallstories", function (data) {
         allstories = data;
         addtostories(data);
         console.log(data);
