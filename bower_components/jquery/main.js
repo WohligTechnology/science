@@ -16,14 +16,14 @@ $(document).ready(function () {
     });
 
 
-    $('.landing').hide(5510);
+    $('.landing').hide(4010);
     $('.footer').hide(0);
     $('.ups').hide(0);
 
 
-    $('.footer').delay(5500).fadeIn(500);
-    $('.ups').delay(5500).fadeIn(500);
-    $('.homes').delay(5500).fadeIn(500);
+    $('.footer').delay(4500).fadeIn(300);
+    $('.ups').delay(4500).fadeIn(300);
+    $('.homes').delay(4500).fadeIn(300);
     //    $('.who').delay(5500).fadeIn(500);
     //    $('.who-set').delay(5500).fadeIn(500);
 
@@ -33,7 +33,7 @@ $(document).ready(function () {
 
 
     $("#hides, #hides1, #hides2, #hides3, #hides4, #hides5, #hides6, #hides7, #hides8, #hides9, #hides10, #hides11").click(function () {
-        $(".tab_content").hide(1000);
+        $(".tab_content").hide(800);
         $(".read-set").show();
 
     });
@@ -41,7 +41,7 @@ $(document).ready(function () {
     $("#sum-img").click(function () {
 
         $(".read-set").hide();
-        $(".tab_content").show(1000);
+        $(".tab_content").show(800);
     });
 
 
@@ -153,50 +153,50 @@ $(document).ready(function () {
 
     $(".whoweare").click(function () {
         $(".homes").hide();
-        $(".who").fadeIn(1000);
+        $(".who").fadeIn(800);
     });
 
     $(".webel").click(function () {
         $(".homes").hide();
-        $(".webl").fadeIn(1000);
+        $(".webl").fadeIn(800);
     });
 
     $(".student").click(function () {
         $(".homes").hide();
-        $(".stlarn").fadeIn(1000);
+        $(".stlarn").fadeIn(800);
     });
 
     $(".pro").click(function () {
         $(".homes").hide();
-        $(".pro").fadeIn(1000);
+        $(".pro").fadeIn(800);
     });
 
     $(".curriculum").click(function () {
         $(".homes").hide();
-        $(".curriculum").fadeIn(1000);
+        $(".curriculum").fadeIn(800);
     });
 
     $(".lab").click(function () {
         $(".homes").hide();
-        $(".lab").fadeIn(1000);
+        $(".lab").fadeIn(800);
     });
 
     $(".stories").click(function () {
         $(".homes").hide();
-        $(".stori").fadeIn(1000);
+        $(".stori").fadeIn(800);
     });
 
     $(".contact").click(function () {
         $(".homes").hide();
-        $(".contact").fadeIn(1000);
+        $(".contact").fadeIn(800);
     });
 
 
 
     $(".ups").click(function () {
 
-        $(".homes").fadeIn(1000);
-        $(".who").hide(1000);
+        $(".homes").fadeIn(800);
+        $(".who").hide(800);
         $(".webl").hide();
         $("#student").hide();
         $("#pro").hide();
