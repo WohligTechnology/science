@@ -171,6 +171,7 @@
 .show-menu .content::before {
 	transform: translate3d(0,0,0);
 	display: inline;
+    position: fixed;
 }
 
 .show-menu .menu,

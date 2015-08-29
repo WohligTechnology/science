@@ -531,8 +531,8 @@ img.hello {
   border: 3px solid #f58220;
   height: 100px;
   width: 100px;
-  line-height: 20px;
-  padding: 25px 0px;
+  line-height: 14px;
+  padding: 30px 0px;
   position: absolute;
   left: 125px;
   top: 0px;
@@ -551,8 +551,8 @@ img.hello {
   border: 3px solid #f58220;
   height: 100px;
   width: 100px;
-  line-height: 20px;
-  padding: 30px 0px;
+  line-height: 14px;
+  padding: 35px 0px;
   position: absolute;
   right: 128px;
   top: 41px;
@@ -563,6 +563,7 @@ img.hello {
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   cursor: pointer;
+  letter-spacing: -1px;
 }
 .beleive .we-txts h4.circle3 {
   color: #231f20;
@@ -571,8 +572,8 @@ img.hello {
   border: 3px solid #f58220;
   height: 100px;
   width: 100px;
-  line-height: 20px;
-  padding: 30px 0px;
+  line-height: 14px;
+  padding: 35px 0px;
   position: relative;
   left: 162px;
   bottom: 40px;
@@ -591,8 +592,8 @@ img.hello {
   border: 3px solid #f58220;
   height: 100px;
   width: 100px;
-  line-height: 20px;
-  padding: 31px 0px;
+  line-height: 14px;
+  padding: 35px 0px;
   position: absolute;
   right: 121px;
   bottom: 40px;
@@ -640,6 +641,7 @@ img.hello {
   position: absolute;
   width: 100%;
   height: 32px;
+  z-index: 3;
 }
 .stu-set {
   text-align: left !important;
@@ -705,16 +707,21 @@ img.hello {
   line-height: 1;
   top: 75px;
   opacity: 1;
+  transition: all 0.3ms ease;
 }
 .lab-left .lab-txt {
   font-size: 164px;
 }
-.lab-left .citylabimg {
-  left: 95px;
-  top: 85px;
-  position: absolute;
-  opacity: 0;
+.lab-left .lab-left {
   transition: all 0.3ms ease;
+}
+.lab-left .citylabimg {
+  left: 91px;
+  top: 78px;
+  position: absolute;
+  width: 55%;
+  opacity: 0;
+  transition: all 1s ease;
   cursor: pointer;
 }
 .lab-left .lab-back:hover .lab-title {
@@ -922,11 +929,11 @@ img.hello {
   width: 100%;
   position: relative;
   padding: 0px;
-  bottom: -50px;
+  bottom: -25px;
   z-index: 2;
 }
 .curriculum .curri-mk {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 .curriculum .img-curri {
@@ -989,6 +996,72 @@ img.hello {
 p.linez {
   line-height: 99% !important;
 }
+img.img-margin-not {
+  padding: 0px!important;
+  width: 54px;
+}
+figcaption {
+  color: #000;
+  font-weight: 700;
+}
+div#stud-set1 {
+  background-color: #F58220;
+  padding: 30px 0px;
+}
+div#stud-set1 .stud-sets {
+  text-align: center;
+  padding: 10px;
+  line-height: 150%;
+  color: #000;
+  border-right: 1px dotted #fff;
+  min-height: 560px;
+}
+div#stud-set1 .stud-sets.nt-right {
+  border: 0px;
+}
+div#stud-set1 .img-stud {
+  padding-bottom: 30px;
+}
+div#stud-set1 .img-stud figure {
+  min-height: 110px;
+  padding-bottom: 10px;
+}
+div#stud-set1 .img-stud figure img {
+  width: 90px;
+}
+div#stud-set1 .img-stud figcaption {
+  color: #fff;
+  font-size: 18px;
+}
+div#stud-set1 a#sl {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  cursor: pointer;
+  width: auto!important;
+}
+div#sl1,
+div#sl2,
+div#sl3,
+div#sl4,
+div#sl5 {
+  cursor: pointer;
+}
+.fancybox-lock .fancybox-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.fancybox-opened .fancybox-skin {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+  background: transparent!important;
+}
+.fancybox-close {
+  background-image: none!important;
+}
+.fancybox-close:before {
+  content: "X";
+  color: #ddd;
+  font-weight: 700;
+}
 .row-flex {
   display: -webkit-box;
   display: -moz-box;
@@ -1003,21 +1076,15 @@ p.linez {
   -ms-flex: 1;
   flex: 1;
 }
-img.img-margin-not {
-  padding: 0px!important;
-  width: 54px;
+.we-det.we-dets {
+  min-height: 600px!important;
 }
-figcaption {
-  color: #000;
-  font-weight: 700;
+.img-margin-not.with-less {
+  width: 70px!important;
 }
-.stud-set {
-  height: 190px;
+.cl-right.less-height {
+  margin: 8px 20px 0px 20px;
 }
-div#sl1,
-div#sl2,
-div#sl3,
-div#sl4,
-div#sl5 {
-  cursor: pointer;
+.cl-right.less-height img {
+  height: 420px;
 }

@@ -595,8 +595,8 @@ img.hello {
             border: 3px solid #f58220;
             height: 100px;
             width: 100px;
-            line-height: 20px;
-            padding: 25px 0px;
+            line-height: 14px;
+            padding: 30px 0px;
             position: absolute;
             left: 125px;
             top: 0px;
@@ -615,8 +615,8 @@ img.hello {
             border: 3px solid #f58220;
             height: 100px;
             width: 100px;
-            line-height: 20px;
-            padding: 30px 0px;
+            line-height: 14px;
+            padding: 35px 0px;
             position: absolute;
             right: 128px;
             top: 41px;
@@ -627,6 +627,7 @@ img.hello {
             -moz-transition: all 1s ease;
             -o-transition: all 1s ease;
             cursor: pointer;
+            letter-spacing: -1px;
         }
         h4.circle3 {
             color: @col;
@@ -635,8 +636,8 @@ img.hello {
             border: 3px solid #f58220;
             height: 100px;
             width: 100px;
-            line-height: 20px;
-            padding: 30px 0px;
+            line-height: 14px;
+            padding: 35px 0px;
             position: relative;
             left: 162px;
             bottom: 40px;
@@ -655,8 +656,8 @@ img.hello {
             border: 3px solid #f58220;
             height: 100px;
             width: 100px;
-            line-height: 20px;
-            padding: 31px 0px;
+            line-height: 14px;
+            padding: 35px 0px;
             position: absolute;
             right: 121px;
             bottom: 40px;
@@ -719,6 +720,7 @@ img.hello {
         position: absolute;
         width: 100%;
         height: 32px;
+        z-index: 3;
     }
 }
 
@@ -795,16 +797,21 @@ img.hello {
         line-height: 1;
         top: 75px;
         opacity: 1;
+        transition: all 0.3ms ease;
     }
     .lab-txt {
         font-size: 164px;
     }
-    .citylabimg {
-        left: 95px;
-        top: 85px;
-        position: absolute;
-        opacity: 0;
+    .lab-left {
         transition: all 0.3ms ease;
+    }
+    .citylabimg {
+        left: 91px;
+        top: 78px;
+        position: absolute;
+        width: 55%;
+        opacity: 0;
+        transition: all 1s ease;
         cursor: pointer;
     }
     .lab-back:hover .lab-title {
@@ -1040,11 +1047,11 @@ img.hello {
         width: 100%;
         position: relative;
         padding: 0px;
-        bottom: -50px;
+        bottom: -25px;
         z-index: 2;
     }
     .curri-mk {
-        width: 80%;
+        width: 95%;
         margin: 0 auto;
     }
     .img-curri {
@@ -1120,6 +1127,79 @@ p.linez {
     line-height: 99% !important;
 }
 
+img.img-margin-not {
+    padding: 0px!important;
+    width: 54px;
+}
+
+figcaption {
+    color: #000;
+    font-weight: 700;
+}
+
+div#stud-set1 {
+    background-color: #F58220;
+    padding: 30px 0px;
+    .stud-sets {
+        text-align: center;
+        padding: 10px;
+        line-height: 150%;
+        color: #000;
+        border-right: 1px dotted #fff;
+        min-height: 560px;
+    }
+    .stud-sets.nt-right {
+        border: 0px;
+    }
+    .img-stud {
+        padding-bottom: 30px;
+        figure {
+            min-height: 110px;
+            padding-bottom: 10px;
+            img {
+                width: 90px;
+            }
+        }
+        figcaption {
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+    a#sl {
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        cursor: pointer;
+        width: auto!important;
+    }
+}
+
+div#sl1,
+div#sl2,
+div#sl3,
+div#sl4,
+div#sl5 {
+    cursor: pointer;
+}
+
+.fancybox-lock .fancybox-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fancybox-opened .fancybox-skin {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0)!important;
+    background: transparent!important;
+}
+
+.fancybox-close {
+    background-image: none!important;
+    &:before {
+        content: "X";
+        color: #ddd;
+        font-weight: 700;
+    }
+}
+
 .row-flex {
     display: -webkit-box;
     display: -moz-box;
@@ -1135,24 +1215,17 @@ p.linez {
     }
 }
 
-img.img-margin-not {
-    padding: 0px!important;
-    width: 54px;
+.we-det.we-dets {
+    min-height: 600px!important;
 }
 
-figcaption {
-    color: #000;
-    font-weight: 700;
+.img-margin-not.with-less {
+    width: 70px!important;
 }
 
-.stud-set {
-   height: 190px;
-}
-
-div#sl1,
-div#sl2,
-div#sl3,
-div#sl4,
-div#sl5 {
-    cursor: pointer;
+.cl-right.less-height {
+    margin: 8px 20px 0px 20px;
+    img {
+        height: 420px;
+    }
 }

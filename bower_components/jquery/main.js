@@ -24,7 +24,7 @@ $(document).ready(function () {
     $('.footer').delay(5500).fadeIn(500);
     $('.ups').delay(5500).fadeIn(500);
     $('.homes').delay(5500).fadeIn(500);
-//    $('.who').delay(5500).fadeIn(500);
+    //    $('.who').delay(5500).fadeIn(500);
     //    $('.who-set').delay(5500).fadeIn(500);
 
 
@@ -80,55 +80,13 @@ $(document).ready(function () {
         $(".we-txt").fadeIn(0);
     });
 
-
-
     $("#sl").click(function () {
         $("#stud-set").show();
         $("#stud-set1").hide(500);
-        $("#stud-set2").hide(500);
-        $("#stud-set3").hide(500);
-        $("#stud-set4").hide(500);
-        $("#stud-set5").hide(500);
-    });  
+    });
     $("#sl1").click(function () {
         $("#stud-set").hide(500);
         $("#stud-set1").show();
-        $("#stud-set2").hide(500);
-        $("#stud-set3").hide(500);
-        $("#stud-set4").hide(500);
-        $("#stud-set5").hide(500);
-    });
-    $("#sl2").click(function () {
-        $("#stud-set").hide(500);
-        $("#stud-set1").hide(500);
-        $("#stud-set2").show();
-        $("#stud-set3").hide(500);
-        $("#stud-set4").hide(500);
-        $("#stud-set5").hide(500);
-    });
-    $("#sl3").click(function () {
-        $("#stud-set").hide(500);
-        $("#stud-set1").hide(500);
-        $("#stud-set2").hide(500);
-        $("#stud-set3").show();
-        $("#stud-set4").hide(500);
-        $("#stud-set5").hide(500);
-    });
-    $("#sl4").click(function () {
-        $("#stud-set").hide(500);
-        $("#stud-set1").hide(500);
-        $("#stud-set2").hide(500);
-        $("#stud-set3").hide(500);
-        $("#stud-set4").show();
-        $("#stud-set5").hide(500);
-    });
-    $("#sl5").click(function () {
-        $("#stud-set").hide(500);
-        $("#stud-set1").hide(500);
-        $("#stud-set2").hide(500);
-        $("#stud-set3").hide(500);
-        $("#stud-set4").hide(500);
-        $("#stud-set5").show();
     });
 
     $("#cl1").click(function () {
@@ -178,10 +136,6 @@ $(document).ready(function () {
     $("#pro-set5").hide();
 
     $("#stud-set1").hide();
-    $("#stud-set2").hide();
-    $("#stud-set3").hide();
-    $("#stud-set4").hide();
-    $("#stud-set5").hide();
 
     $(".homes").hide();
     $(".who-set").hide();
