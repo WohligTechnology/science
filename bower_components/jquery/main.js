@@ -16,14 +16,14 @@ $(document).ready(function () {
     });
 
 
-    $('.landing').hide(5510);
+    $('.landing').hide(4010);
     $('.footer').hide(0);
     $('.ups').hide(0);
 
 
-    $('.footer').delay(5500).fadeIn(500);
-    $('.ups').delay(5500).fadeIn(500);
-    $('.homes').delay(5500).fadeIn(500);
+    $('.footer').delay(4500).fadeIn(300);
+    $('.ups').delay(4500).fadeIn(300);
+    $('.homes').delay(4500).fadeIn(300);
     //    $('.who').delay(5500).fadeIn(500);
     //    $('.who-set').delay(5500).fadeIn(500);
 
@@ -33,7 +33,7 @@ $(document).ready(function () {
 
 
     $("#hides, #hides1, #hides2, #hides3, #hides4, #hides5, #hides6, #hides7, #hides8, #hides9, #hides10, #hides11").click(function () {
-        $(".tab_content").hide(1000);
+        $(".tab_content").hide(800);
         $(".read-set").show();
 
     });
@@ -41,7 +41,7 @@ $(document).ready(function () {
     $("#sum-img").click(function () {
 
         $(".read-set").hide();
-        $(".tab_content").show(1000);
+        $(".tab_content").show(800);
     });
 
 
@@ -153,6 +153,7 @@ $(document).ready(function () {
 
     $(".whoweare").click(function () {
         $(".homes").hide();
+<<<<<<< HEAD
         $(".webl").hide();
         $(".stlarn").hide();
         $(".pros").hide();
@@ -161,10 +162,14 @@ $(document).ready(function () {
         $(".stori").hide();
         $(".contacts").hide();
         $(".who").fadeIn(1000);
+=======
+        $(".who").fadeIn(800);
+>>>>>>> origin/master
     });
 
     $(".webels").click(function () {
         $(".homes").hide();
+<<<<<<< HEAD
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -173,10 +178,14 @@ $(document).ready(function () {
         $(".contacts").hide();
         $(".who").hide();
         $(".webl").fadeIn(1000);
+=======
+        $(".webl").fadeIn(800);
+>>>>>>> origin/master
     });
 
     $(".student").click(function () {
         $(".homes").hide();
+<<<<<<< HEAD
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -186,10 +195,14 @@ $(document).ready(function () {
         $(".who").hide();
         $(".webl").hide();
         $(".stlarn").fadeIn(1000);
+=======
+        $(".stlarn").fadeIn(800);
+>>>>>>> origin/master
     });
 
     $(".pro").click(function () {
         $(".homes").hide();
+<<<<<<< HEAD
         $(".stlarn").hide();
         $(".curriculums").hide();
         $(".labs").hide();
@@ -198,10 +211,14 @@ $(document).ready(function () {
         $(".who").hide();
         $(".webl").hide();
         $(".pros").fadeIn(1000);
+=======
+        $(".pro").fadeIn(800);
+>>>>>>> origin/master
     });
 
     $(".curriculum").click(function () {
         $(".homes").hide();
+<<<<<<< HEAD
         $(".stlarn").hide();
         $(".pros").hide();
         $(".labs").hide();
@@ -210,10 +227,14 @@ $(document).ready(function () {
         $(".who").hide();
         $(".webl").hide();
         $(".curriculums").fadeIn(1000);
+=======
+        $(".curriculum").fadeIn(800);
+>>>>>>> origin/master
     });
 
     $(".lab").click(function () {
         $(".homes").hide();
+<<<<<<< HEAD
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -222,10 +243,14 @@ $(document).ready(function () {
         $(".who").hide();
         $(".webl").hide();
         $(".labs").fadeIn(1000);
+=======
+        $(".lab").fadeIn(800);
+>>>>>>> origin/master
     });
 
     $(".stories").click(function () {
         $(".homes").hide();
+<<<<<<< HEAD
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -234,10 +259,14 @@ $(document).ready(function () {
         $(".who").hide();
         $(".webl").hide();
         $(".stori").fadeIn(1000);
+=======
+        $(".stori").fadeIn(800);
+>>>>>>> origin/master
     });
 
     $(".contact").click(function () {
         $(".homes").hide();
+<<<<<<< HEAD
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -246,14 +275,17 @@ $(document).ready(function () {
         $(".who").hide();
         $(".webl").hide();
         $(".contacts").fadeIn(1000);
+=======
+        $(".contact").fadeIn(800);
+>>>>>>> origin/master
     });
 
 
 
     $(".ups").click(function () {
 
-        $(".homes").fadeIn(1000);
-        $(".who").hide(1000);
+        $(".homes").fadeIn(800);
+        $(".who").hide(800);
         $(".webl").hide();
         $(".stlarn").hide();
         $(".pros").hide();
