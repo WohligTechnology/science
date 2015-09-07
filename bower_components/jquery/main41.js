@@ -12,6 +12,7 @@
 
 	var bodyEl = document.body,
 		content = document.querySelector( '.content-wrap' ),
+		openbtns = document.getElementById( '.open-button' ),
 		openbtn = document.getElementById( 'open-button' ),
 		openbtn2 = document.getElementById( 'open-button2' ),
 		openbtn3 = document.getElementById( 'open-button3' ),

@@ -153,42 +153,99 @@ $(document).ready(function () {
 
     $(".whoweare").click(function () {
         $(".homes").hide();
+        $(".webl").hide();
+        $(".stlarn").hide();
+        $(".pros").hide();
+        $(".curriculums").hide();
+        $(".labs").hide();
+        $(".stori").hide();
+        $(".contacts").hide();
         $(".who").fadeIn(1000);
     });
 
-    $(".webel").click(function () {
+    $(".webels").click(function () {
         $(".homes").hide();
+        $(".stlarn").hide();
+        $(".pros").hide();
+        $(".curriculums").hide();
+        $(".labs").hide();
+        $(".stori").hide();
+        $(".contacts").hide();
+        $(".who").hide();
         $(".webl").fadeIn(1000);
     });
 
     $(".student").click(function () {
         $(".homes").hide();
+        $(".stlarn").hide();
+        $(".pros").hide();
+        $(".curriculums").hide();
+        $(".labs").hide();
+        $(".stori").hide();
+        $(".contacts").hide();
+        $(".who").hide();
+        $(".webl").hide();
         $(".stlarn").fadeIn(1000);
     });
 
     $(".pro").click(function () {
         $(".homes").hide();
-        $(".pro").fadeIn(1000);
+        $(".stlarn").hide();
+        $(".curriculums").hide();
+        $(".labs").hide();
+        $(".stori").hide();
+        $(".contacts").hide();
+        $(".who").hide();
+        $(".webl").hide();
+        $(".pros").fadeIn(1000);
     });
 
     $(".curriculum").click(function () {
         $(".homes").hide();
-        $(".curriculum").fadeIn(1000);
+        $(".stlarn").hide();
+        $(".pros").hide();
+        $(".labs").hide();
+        $(".stori").hide();
+        $(".contacts").hide();
+        $(".who").hide();
+        $(".webl").hide();
+        $(".curriculums").fadeIn(1000);
     });
 
     $(".lab").click(function () {
         $(".homes").hide();
-        $(".lab").fadeIn(1000);
+        $(".stlarn").hide();
+        $(".pros").hide();
+        $(".curriculums").hide();
+        $(".stori").hide();
+        $(".contacts").hide();
+        $(".who").hide();
+        $(".webl").hide();
+        $(".labs").fadeIn(1000);
     });
 
     $(".stories").click(function () {
         $(".homes").hide();
+        $(".stlarn").hide();
+        $(".pros").hide();
+        $(".curriculums").hide();
+        $(".labs").hide();
+        $(".contacts").hide();
+        $(".who").hide();
+        $(".webl").hide();
         $(".stori").fadeIn(1000);
     });
 
     $(".contact").click(function () {
         $(".homes").hide();
-        $(".contact").fadeIn(1000);
+        $(".stlarn").hide();
+        $(".pros").hide();
+        $(".curriculums").hide();
+        $(".labs").hide();
+        $(".stori").hide();
+        $(".who").hide();
+        $(".webl").hide();
+        $(".contacts").fadeIn(1000);
     });
 
 
@@ -198,12 +255,12 @@ $(document).ready(function () {
         $(".homes").fadeIn(1000);
         $(".who").hide(1000);
         $(".webl").hide();
-        $("#student").hide();
-        $("#pro").hide();
-        $("#curriculum").hide();
-        $("#lab").hide();
-        $("#stories").hide();
-        $("#contact").hide();
+        $(".stlarn").hide();
+        $(".pros").hide();
+        $(".curriculums").hide();
+        $(".labs").hide();
+        $(".stori").hide();
+        $(".contacts").hide();
     });
 
 
@@ -237,24 +294,24 @@ $(document).ready(function () {
         console.log(filter);
         switch (filter) {
 
-        case "all":
-            {
-                $(".teacherrow").show();
-                $(".studentrow").show();
-            }
-            break;
-        case "student":
-            {
-                $(".teacherrow").hide();
-                $(".studentrow").show();
-            }
-            break;
-        case "teacher":
-            {
-                $(".teacherrow").show();
-                $(".studentrow").hide();
-            }
-            break;
+            case "all":
+                {
+                    $(".teacherrow").show();
+                    $(".studentrow").show();
+                }
+                break;
+            case "student":
+                {
+                    $(".teacherrow").hide();
+                    $(".studentrow").show();
+                }
+                break;
+            case "teacher":
+                {
+                    $(".teacherrow").show();
+                    $(".studentrow").hide();
+                }
+                break;
         }
 
         return false;
