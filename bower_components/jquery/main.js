@@ -153,7 +153,7 @@ $(document).ready(function () {
 
     $(".whoweare").click(function () {
         $(".homes").hide();
-<<<<<<< HEAD
+
         $(".webl").hide();
         $(".stlarn").hide();
         $(".pros").hide();
@@ -162,14 +162,13 @@ $(document).ready(function () {
         $(".stori").hide();
         $(".contacts").hide();
         $(".who").fadeIn(1000);
-=======
+
         $(".who").fadeIn(800);
->>>>>>> origin/master
+
     });
 
     $(".webels").click(function () {
         $(".homes").hide();
-<<<<<<< HEAD
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -178,14 +177,13 @@ $(document).ready(function () {
         $(".contacts").hide();
         $(".who").hide();
         $(".webl").fadeIn(1000);
-=======
+
         $(".webl").fadeIn(800);
->>>>>>> origin/master
+
     });
 
     $(".student").click(function () {
         $(".homes").hide();
-<<<<<<< HEAD
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -195,14 +193,14 @@ $(document).ready(function () {
         $(".who").hide();
         $(".webl").hide();
         $(".stlarn").fadeIn(1000);
-=======
+
         $(".stlarn").fadeIn(800);
->>>>>>> origin/master
+
     });
 
     $(".pro").click(function () {
         $(".homes").hide();
-<<<<<<< HEAD
+
         $(".stlarn").hide();
         $(".curriculums").hide();
         $(".labs").hide();
@@ -211,14 +209,14 @@ $(document).ready(function () {
         $(".who").hide();
         $(".webl").hide();
         $(".pros").fadeIn(1000);
-=======
+
         $(".pro").fadeIn(800);
->>>>>>> origin/master
+
     });
 
     $(".curriculum").click(function () {
         $(".homes").hide();
-<<<<<<< HEAD
+
         $(".stlarn").hide();
         $(".pros").hide();
         $(".labs").hide();
@@ -226,15 +224,13 @@ $(document).ready(function () {
         $(".contacts").hide();
         $(".who").hide();
         $(".webl").hide();
-        $(".curriculums").fadeIn(1000);
-=======
         $(".curriculum").fadeIn(800);
->>>>>>> origin/master
+
     });
 
     $(".lab").click(function () {
         $(".homes").hide();
-<<<<<<< HEAD
+
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -242,15 +238,13 @@ $(document).ready(function () {
         $(".contacts").hide();
         $(".who").hide();
         $(".webl").hide();
-        $(".labs").fadeIn(1000);
-=======
         $(".lab").fadeIn(800);
->>>>>>> origin/master
+
     });
 
     $(".stories").click(function () {
         $(".homes").hide();
-<<<<<<< HEAD
+
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -258,15 +252,13 @@ $(document).ready(function () {
         $(".contacts").hide();
         $(".who").hide();
         $(".webl").hide();
-        $(".stori").fadeIn(1000);
-=======
         $(".stori").fadeIn(800);
->>>>>>> origin/master
+
     });
 
     $(".contact").click(function () {
         $(".homes").hide();
-<<<<<<< HEAD
+
         $(".stlarn").hide();
         $(".pros").hide();
         $(".curriculums").hide();
@@ -274,10 +266,8 @@ $(document).ready(function () {
         $(".stori").hide();
         $(".who").hide();
         $(".webl").hide();
-        $(".contacts").fadeIn(1000);
-=======
         $(".contact").fadeIn(800);
->>>>>>> origin/master
+
     });
 
 
