@@ -11,22 +11,14 @@ $query['story']=$this->db->query("SELECT `id`,`title`,`content`,`numberofimage`,
 	public function getallstories(){
 	$query=$this->db->query("SELECT `id`,`title`,`content`,`numberofimage`,`image1`,`image2`,`status` FROM `reniscience_story`")->result();
 		
-		 foreach($query AS $row)
+		 foreach($query as $row)
         {
              $row->images=array();
-             $images=$this->db->query("SELECT `image` FROM `reniscience_storyimage` WHERE `storyid`='$row->id'");
+             $row->query="SELECT * FROM `reniscience_storyimage` WHERE `storyid`='$row->id'";
+             $images=$this->db->query("SELECT * FROM `reniscience_storyimage` WHERE `storyid`='$row->id'");
 			 if($images->num_rows()>0)
 			 {
-                 $images=$images->result();
-                 foreach($images as $image)
-                 {
-                     //print_r($image);
-                     if($image->image!="")
-                     {
-                        array_push($row->images,$image->image);
-                     }
-                 }
-				 
+                 $row->images=$images->result();				 
 			 }
 		 }
 		return $query;
