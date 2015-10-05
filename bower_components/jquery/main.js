@@ -1,4 +1,4 @@
-var adminurl = "http://localhost/science/admin/";
+var adminurl = "http://wohlig.co.in/science/admin/";
 var apiurl = adminurl + "index.php/json/";
 
 

@@ -73,8 +73,8 @@ $myserver=$_SERVER['SERVER_NAME'];
 //else
 {
     $db['default']['hostname'] = 'localhost';
-    $db['default']['username'] = 'wohligco_science';
-    $db['default']['password'] = 'chintan123';
+    $db['default']['username'] = 'root';
+    $db['default']['password'] = '';
     $db['default']['database'] = 'wohligco_science';
     $db['default']['dbdriver'] = 'mysql';
     $db['default']['dbprefix'] = '';
