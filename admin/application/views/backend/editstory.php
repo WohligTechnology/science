@@ -14,7 +14,8 @@
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="normal-field">Content</label>
 				<div class="col-sm-4">
-					<textarea><?php echo set_value(' content ',$before->content);?></textarea>
+					<textarea id="some-textarea" name="content" placeholder="Enter text ..."><?php echo set_value(' content ',$before->content);?></textarea>
+					
 				</div>
 			</div>
 

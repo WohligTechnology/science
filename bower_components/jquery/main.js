@@ -10,6 +10,8 @@ $(window).load(function () {
 });
 
 $(document).ready(function () {
+
+
     $(".section").css("min-height", $(window).height());
     $(window).resize(function () {
         $(".section").css("min-height", $(window).height());
@@ -316,24 +318,24 @@ $(document).ready(function () {
         console.log(filter);
         switch (filter) {
 
-            case "all":
-                {
-                    $(".teacherrow").show();
-                    $(".studentrow").show();
-                }
-                break;
-            case "student":
-                {
-                    $(".teacherrow").hide();
-                    $(".studentrow").show();
-                }
-                break;
-            case "teacher":
-                {
-                    $(".teacherrow").show();
-                    $(".studentrow").hide();
-                }
-                break;
+        case "all":
+            {
+                $(".teacherrow").show();
+                $(".studentrow").show();
+            }
+            break;
+        case "student":
+            {
+                $(".teacherrow").hide();
+                $(".studentrow").show();
+            }
+            break;
+        case "teacher":
+            {
+                $(".teacherrow").show();
+                $(".studentrow").hide();
+            }
+            break;
         }
 
         return false;
@@ -378,8 +380,8 @@ $(document).ready(function () {
 
     function addimageslider(src) {
         var src2 = "";
-        if (src && src != "" && src.image != "") {
-            src2 = '<li class="js_slide" style="text-align:center;width: auto;height: 312px;"><img style="text-align:center;width: auto;height: 312px;" src="' + adminurl + "uploads/" + src.img + '"><p>'+src.bottomtext+'</p></li>';
+        if (src && src != "" && src.image != "" && src.image) {
+            src2 = '<li class="js_slide" style="text-align:center;width: auto;height: 312px;"><img style="text-align:center;width: auto;height: 312px;" src="' + adminurl + "uploads/" + src.image + '"><p>' + src.bottomtext + '</p></li>';
         }
         return src2;
     }
@@ -388,8 +390,8 @@ $(document).ready(function () {
         $(".readmorepage .fullstorytitle").text(story.title);
         $(".readmorepage .fullstorybody").html(story.content);
         $(".readmorepage .fullstoryimages ul").html("");
-//        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image1));
-//        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image2));
+        //        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image1));
+        //        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image2));
         console.log(story.images);
         for (var i = 0; i < story.images.length; i++) {
             $(".readmorepage .fullstoryimages ul").append(addimageslider(story.images[i]));
