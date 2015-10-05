@@ -754,6 +754,7 @@ $this->form_validation->set_rules("storyid","Story id","trim");
 $this->form_validation->set_rules("order","Order","trim");
 $this->form_validation->set_rules("image","image","trim");
 $this->form_validation->set_rules("status","Status","trim");
+$this->form_validation->set_rules("bottomtext","Bottom Text","trim");
 if($this->form_validation->run()==FALSE)
 {
 $data["alerterror"]=validation_errors();
@@ -769,6 +770,7 @@ $storyid=$this->input->get_post("storyid");
 $order=$this->input->get_post("order");
 $image=$this->input->get_post("image");
 $status=$this->input->get_post("status");
+$bottomtext=$this->input->get_post("bottomtext");
 	$config['upload_path'] = './uploads/';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
 			$this->load->library('upload', $config);
@@ -803,7 +805,7 @@ $status=$this->input->get_post("status");
                 }
                 
 			}
-if($this->storyimage_model->create($storyid,$order,$image,$status)==0)
+if($this->storyimage_model->create($storyid,$order,$image,$status,$bottomtext)==0)
 $data["alerterror"]="New storyimage could not be created.";
 else
 $data["alertsuccess"]="storyimage created Successfully.";
@@ -832,6 +834,7 @@ $this->form_validation->set_rules("storyid","Story id","trim");
 $this->form_validation->set_rules("order","Order","trim");
 $this->form_validation->set_rules("image","image","trim");
 $this->form_validation->set_rules("status","Status","trim");
+$this->form_validation->set_rules("bottomtext","Bottom Text","trim");
 if($this->form_validation->run()==FALSE)
 {
 $data["alerterror"]=validation_errors();
@@ -849,6 +852,7 @@ $storyid=$this->input->get_post("storyid");
 $order=$this->input->get_post("order");
 $image=$this->input->get_post("image");
 $status=$this->input->get_post("status");
+$bottomtext=$this->input->get_post("bottomtext");
 	$config['upload_path'] = './uploads/';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
 			$this->load->library('upload', $config);
@@ -890,7 +894,7 @@ $status=$this->input->get_post("status");
                // print_r($image);
                 $image=$image->image;
             }
-if($this->storyimage_model->edit($id,$storyid,$order,$image,$status)==0)
+if($this->storyimage_model->edit($id,$storyid,$order,$image,$status,$bottomtext)==0)
 $data["alerterror"]="New storyimage could not be Updated.";
 else
 $data["alertsuccess"]="storyimage Updated Successfully.";

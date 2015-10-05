@@ -3,9 +3,9 @@ if ( !defined( "BASEPATH" ) )
 exit( "No direct script access allowed" );
 class storyimage_model extends CI_Model
 {
-public function create($storyid,$order,$image,$status)
+public function create($storyid,$order,$image,$status,$bottomtext)
 {
-$data=array("storyid" => $storyid,"order" => $order,"image" => $image,"status" => $status);
+$data=array("storyid" => $storyid,"order" => $order,"image" => $image,"status" => $status,"bottomtext" => $bottomtext);
 $query=$this->db->insert( "reniscience_storyimage", $data );
 $id=$this->db->insert_id();
 if(!$query)
@@ -24,9 +24,9 @@ $this->db->where("id",$id);
 $query=$this->db->get("reniscience_storyimage")->row();
 return $query;
 }
-public function edit($id,$storyid,$order,$image,$status)
+public function edit($id,$storyid,$order,$image,$status,$bottomtext)
 {
-$data=array("storyid" => $storyid,"order" => $order,"image" => $image,"status" => $status);
+$data=array("storyid" => $storyid,"order" => $order,"image" => $image,"status" => $status,"bottomtext" => $bottomtext);
 $this->db->where( "id", $id );
 $query=$this->db->update( "reniscience_storyimage", $data );
 return 1;

@@ -48,6 +48,7 @@ return $query;
 function getsinglestory($id){
 $this->db->where("id",$id);
 $query=$this->db->get("reniscience_story")->row();
+$query["imageArr"]=$this->db->query("SELECT * FROM `reniscience_storyimage` WHERE `storyid`='$id'")->result();
 return $query;
 }
 public function edit($id,$title,$content,$numberofimage,$image1,$image2,$status,$timestamp,$category)
