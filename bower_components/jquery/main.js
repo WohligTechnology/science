@@ -354,8 +354,8 @@ $(document).ready(function () {
         $(classname + " .storyimage1").attr("src", adminurl + "uploads/" + story.image1);
         $(classname + " .storyimage2").attr("src", adminurl + "uploads/" + story.image2);
         $(classname + " .storyreadmore").attr("data-storyid", story.id);
-        $(classname + " .storytitle").text(story.title);
-        $(classname + " .storybodymin").text(getWords(story.content));
+        $(classname + " .storytitle").html(story.title);
+        $(classname + " .storybodymin").html(getWords(story.content));
     }
 
     function addtostories(data) {
@@ -387,7 +387,7 @@ $(document).ready(function () {
     }
 
     function changestorydetailcontent(story) {
-        $(".readmorepage .fullstorytitle").text(story.title);
+        $(".readmorepage .fullstorytitle").html(story.title);
         $(".readmorepage .fullstorybody").html(story.content);
         $(".readmorepage .fullstoryimages ul").html("");
         //        $(".readmorepage .fullstoryimages ul").append(addimageslider(story.image1));
