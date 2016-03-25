@@ -770,6 +770,24 @@ img.hello {
   color: #231f20;
   font-size: 13px;
 }
+.pro-left ul.pro-center li{
+     /*text-align: center;*/
+    color: #231f20;
+    font-size: 13px;
+    list-style: none;
+    line-height: 16px;
+    width: 70%;
+  }
+  .pro-left ul.pro-center li:before {
+    content: "• ";
+    color: #f58220;
+    font-size: 22px;
+    margin: .25em 0.25em 0;
+    position: relative;
+    top: 5px;
+    left: 7px;
+  }
+
 .pro-set {
   padding: 25px 0px 70px;
 }
@@ -924,7 +942,10 @@ img.hello {
   left: 7px;
 }
 .curriculums .img-curri img {
-  width: 95%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   padding: 0px;
   bottom: -25px;
