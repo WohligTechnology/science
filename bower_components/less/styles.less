@@ -715,6 +715,7 @@ img.hello {
   background: url("../img/object/enquiry.png")no-repeat center center;
   background-size: 100% 100%;
   height: 425px;
+  width: 100%;
 }
 .mb-hg {
   background: url("../img/object/backssss.png")no-repeat center center;
@@ -734,6 +735,11 @@ img.hello {
   right: 0;
   width: 90%;
 }
+// .stu-div1 {
+//   position: relative;
+//   right: 0;
+//   width: 90%;
+// }
 .st-img {
   position: absolute;
   right: 60px;
@@ -745,6 +751,22 @@ img.hello {
   padding-top: 40px;
   margin: 0 61px;
   h3 {
+    font-family: trashhand;
+    text-transform: uppercase;
+  }
+  p {
+    color: @col;
+    font-size: 13px;
+  }
+}
+.stu-det1.text-center {
+  padding-top: 40px;
+  margin: 0 61px;
+  h3 {
+    font-family: trashhand;
+    text-transform: uppercase;
+  }
+  h2{
     font-family: trashhand;
     text-transform: uppercase;
   }
@@ -814,7 +836,7 @@ img.hello {
 }
 .fcontact {
   font-size: 190px;
-  line-height: 0.8;
+  line-height: 0.9;
 }
 .pro-left {
   h1 {
@@ -1126,7 +1148,7 @@ div#stud-set1 {
       font-size: 18px;
     }
   }
-  a#sl {
+  a#sl,a#shw5 {
     position: absolute;
     right: 20px;
     top: 5px;
@@ -1222,10 +1244,45 @@ ul.stud-mak {
 .padd{
   padding: 0px;
 }
-.fancybox-inner{
-width: 620px !important;
-height: auto !important;
-}
+// .fancybox-inner{
+// width: 620px !important;
+// height: auto !important;
+// position: absolute;
+// top: 50%;
+// left: 50%;
+// .transform(translate(-50%,-50%));
+// }
+// .fancybox-outer{
+//   position: fixed;
+//    bottom: 0;
+//    right: 0;
+//    top: 0;
+//    left: 0;
+//    width:100%;
+//    height:100%;
+//    background-color: rgba(0 , 0, 0, 0.7);;
+// }
 .fancybox-wrap {
-    text-align: -webkit-center;
+    text-align: center;
+    width: auto !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    .transform(translate(-50%,-50%));
   }
+  .fancybox-opened {
+    z-index: 10000 !important;
+}
+  .fancybox-close {
+    display: none;
+}
+.fancybox-outer, .fancybox-inner {
+  overflow: hidden !important;
+  width: auto !important;
+  height: auto !important;
+}
+.stu-div1 {
+  width: 600px;
+  margin: 0 auto;
+}
+.fancybox-overlay { background-color: rgba(0,0,0,0.7); }

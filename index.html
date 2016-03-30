@@ -1351,66 +1351,71 @@ https://www.youtube.com/watch?v=C0wqYA3IzPo</a>
       <img src="bower_components/img/object/line2.png" style="bottom: 30px;">
     </div>
   </div>
-  <div class="stu-div round1" id="mail">
-    <div class="stu-back1">
-      <div class="stu-det text-center">
-        <h3 class="text-uppercase">We will be happy to help you!</h3>
-        <div>
-          <form name="enquiry">
-              <div class="form-group">
-                <div class="row">
-                <label for="exampleInputName1" class="col-xs-3 lcolor">Name</label>
-                <div class="col-xs-7 padd">
-                  <input name="name" required ng-model="userForm.name" type="text" class="form-control" id="exampleInputName1" placeholder="Enter Name">
+    <div class="stu-div1 round1" id="mail">
+      <div class="stu-back1">
+        <a id="inline">
+          <img class="st-img" src="bower_components/img/object/clos.png">
+        </a>
+        <div class="stu-det1 text-center">
+          <h2 class="text-uppercase">We will be happy to help you!</h2>
+          <div>
+            <form name="enquiry">
+                <div class="form-group">
+                  <div class="row">
+                  <label for="exampleInputName1" class="col-md-3 col-sm-3  lcolor">Name</label>
+                  <div class="col-md-7 col-sm-7 padd">
+                    <input name="name" required ng-model="userForm.name" type="text" class="form-control" id="exampleInputName1" placeholder="Enter Name">
+                  </div>
+                  <!-- <div class="error-msg" ng-show="suggestUser.name.$error.required && suggestUser.name.$touched">Please Enter Your Name.
+                </div> -->
                 </div>
-                <!-- <div class="error-msg" ng-show="suggestUser.name.$error.required && suggestUser.name.$touched">Please Enter Your Name.
-              </div> -->
               </div>
-            </div>
-              <div class="form-group">
-                <div class="row">
-                <label for="exampleInputName2" class="col-xs-3 lcolor">Email</label>
-                <div class="col-xs-7 padd">
-                  <input name="email" required ng-model="userForm.email" type="email" class="form-control" id="exampleInputName2" placeholder="Enter Email Address">
-                </div>
+                <div class="form-group">
+                  <div class="row">
+                  <label for="exampleInputName2" class="col-md-3 col-sm-3 lcolor">Email</label>
+                  <div class="col-md-7 col-sm-7  padd">
+                    <input name="email" required ng-model="userForm.email" type="email" class="form-control" id="exampleInputName2" placeholder="Enter Email Address">
+                  </div>
 
-                <!-- <div class="error-msg" ng-show="suggestUser.email.$error.required && suggestUser.email.$touched">Please Enter Email id.
+                  <!-- <div class="error-msg" ng-show="suggestUser.email.$error.required && suggestUser.email.$touched">Please Enter Email id.
+                          </div> -->
+                </div>
+              </div>
+                <div class="form-group">
+                  <div class="row">
+                  <label for="exampleInputName3" class="col-md-3 col-sm-3 lcolor">Contact No.</label>
+                  <div class="col-md-7 col-sm-7 padd">
+                    <input name="contact" required ng-model="userForm.contact" type="tel" maxlength="13" class="form-control" id="exampleInputName3" placeholder="Enter Contact number.">
+                  </div>
+                  <!-- <div class="error-msg" ng-show="suggestUser.contact.$error.required && user.contact.$touched">Please Enter Contact.
                         </div> -->
-              </div>
-            </div>
-              <div class="form-group">
-                <div class="row">
-                <label for="exampleInputName3" class="col-xs-3 lcolor">Contact No.</label>
-                <div class="col-xs-7 padd">
-                  <input name="contact" required ng-model="userForm.contact" type="number" class="form-control" id="exampleInputName3" placeholder="Enter Contact number">
                 </div>
-                <!-- <div class="error-msg" ng-show="suggestUser.contact.$error.required && user.contact.$touched">Please Enter Contact.
+              </div>
+                <div class="form-group">
+                  <div class="row">
+                  <label for="exampleInputName4" class="col-md-3 col-sm-3 lcolor">Enquiry</label>
+                  <div class="col-md-7 col-sm-7 padd">
+                    <textarea name="query" required ng-model="userForm.query" id="exampleInputName4" class="form-control" style="height:100px;resize: none;"></textarea>
+                  </div>
+                  <!-- <div class="error-msg" ng-show="suggestUser.query.$error.required && user.query.$touched">Please Enter Query.
                       </div> -->
-              </div>
-            </div>
-              <div class="form-group">
-                <div class="row">
-                <label for="exampleInputName4" class="col-xs-3 lcolor">Enquiry</label>
-                <div class="col-xs-7 padd">
-                  <textarea name="query" required ng-model="userForm.query" id="exampleInputName4" class="form-control" style="height:100px;resize: none;"></textarea>
                 </div>
-                <!-- <div class="error-msg" ng-show="suggestUser.query.$error.required && user.query.$touched">Please Enter Query.
-                    </div> -->
               </div>
-            </div>
 
-              <div class="col-xs-10" style="float:left">
+                <div class="col-xs-10" style="float:left">
 
-                <div class="pull-right" style="margin-right: -24px;">
-                  <button class="btn btn-default btn-sm" ng-class="{'disabled' : !enquiry.$valid }" ng-click="SubmitForm()">Submit</button>
-                </div>
+                  <div class="pull-right" style="margin-right: -17px;">
+                    <button class="btn btn-default btn-sm" ng-class="{'disabled' : !enquiry.$valid }" ng-click="SubmitForm()">Submit</button>
+                  </div>
 
-            </div>
-          </form>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+
+
 
   <div class="text-center ups" style="position: fixed;bottom: 33px;width: 100%; z-index: 9999;">
     <a href="#/"><img src="bower_components/img/up.png">
@@ -1492,7 +1497,11 @@ https://www.youtube.com/watch?v=C0wqYA3IzPo</a>
       });
     })(jQuery);
   </script>
-
+<script>
+  $('#inline').click(function(){
+    $.fancybox.close();
+  });
+  </script>
   <!--
     <script>
         $(document).ready(function () {

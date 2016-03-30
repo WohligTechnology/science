@@ -1,4 +1,5 @@
-@media only screen and (min-width: 990px) and (max-width: 1128px) {
+
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
     .lab-left .lab-title {
         top: 75px !important;
         font-size: 90px !important;
@@ -104,14 +105,14 @@
         right: 80px !important;
     }
     .fcontact {
-        font-size: 130px !important;
+        font-size: 130px;
     }
     .con-set {
         height: 408px !important;
         padding-top: 40px;
     }
     .info-contact {
-        right: 15px !important;
+        right: -21px;
     }
     .stu-back {
         height: 340px !important;
@@ -161,7 +162,7 @@
     }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 990px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .menu-set li {
         font-size: 40px;
     }
@@ -312,7 +313,7 @@
         line-height: 22px;
     }
     .fcontact {
-        font-size: 120px;
+        font-size: 110px;
     }
     .stori-head .head-mid h1 {
         font-size: 102px;
@@ -340,12 +341,13 @@
         right: 75px;
     }
     .info-contact {
-        top: 30px;
-        right: -40px;
+      top: 65px;
+right: -62px;
+      line-height: 0.8;
     }
     .contact-text .text {
         left: 43px;
-        top: 77px;
+        top: 99px;
     }
     .info-contact p {
         font-size: 12px;
@@ -363,7 +365,7 @@
         zoom: 0.9;
     }
     .menu-set li {
-        font-size: 30px;
+        font-size: 35px;
     }
     .we-set p {
         line-height: 20px;
@@ -504,23 +506,30 @@
         height: 670px;
     }
     .info-contact {
-        top: 15px;
-        left: 115px;
+      top: 20px;
+left: 102px;
+line-height: 0.7;
     }
     .contact-text .text {
-        left: 30px;
-        top: 58px;
+      left: 30px;
+top: 58px;
     }
     .fcontact {
-        font-size: 90px;
-        line-height: 0.8;
+      font-size: 84px;
+line-height: 0.8;
     }
-    .menu-set ul {
-        padding: 90px 0px 0px;
+    .content{
+        margin-left: 18% !important;
     }
+    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    height: 284px;
+  }
+  .menu-set ul {
+    padding: 62px 0px 0px;
+}
     .contact-text {
-        left: 60px;
-        top: 32px;
+      left: 60px;
+top: 32px;
     }
     .lab-right,
     .beleive .we-txt p,
@@ -532,12 +541,20 @@
     .menu-set img {
         display: none;
     }
-    .menu-set li {
-        font-size: 16px;
-    }
+
     .lab li {
         padding: 0!important;
     }
+    .lcolor{
+      float:left;
+      padding: 0;
+    }
+    .stu-div1 {
+    width: 425px;
+  }
+  .stu-back1{
+    height: 520px;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -558,10 +575,10 @@
         height: 465px;
     }
     .menu-set li {
-        font-size: 22px;
+        font-size: 26px;
     }
     .menu-set ul {
-        padding: 60px 0 0;
+        padding: 35px 0 0;
     }
     .footer .foot-set p {
         font-size: 10px;
@@ -663,4 +680,43 @@
     .det-stor .right-det,.det-stor .left-det{
         width:75%;
     }
+    .content {
+    margin-left: 0px !important;
+}
+.fcontact{
+      font-size: 60px;
+}
+.contact-text {
+    left: 24px;
+    top: 32px;
+}
+.contact-text .text {
+    left: 30px;
+    top: 50px;
+}
+.info-contact {
+    top: 20px;
+    left: 70px;
+    line-height: 0.6;
+}
+.stu-div1 {
+width: 300px;
+}
+.stu-back1{
+height: 472px;
+}
+.stu-det1.text-center{
+padding-top: 8px;
+margin: 0 32px;
+}
+.stu-det1.text-center h2 {
+font-size: 22px;
+}
+.lcolor {
+    font-size: 12px;
+}
+.st-img {
+    right: 36px;
+    top: 10px;
+  }
 }
