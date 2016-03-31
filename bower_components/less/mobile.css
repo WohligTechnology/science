@@ -256,8 +256,7 @@
         height: 295px!important;
     }
     .beleive .we-det {
-        height: 463px;
-        padding-top: 36px;
+      height: 550px;
     }
     .beleive .we-dets {
         height: 400px !important;
@@ -719,4 +718,13 @@ font-size: 22px;
     right: 36px;
     top: 10px;
   }
+}
+@media only screen and (min-width: 990px)  and (max-width: 1024px)
+{
+  .beleive .we-txt {
+    margin: -12px 0;
+  }
+  /*.beleive .we-txts h4.circle4 {
+    font-size: 11px;
+  }*/
 }
