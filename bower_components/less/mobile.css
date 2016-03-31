@@ -188,8 +188,11 @@
     }
     .are-st .right-set {
         background: none;
-        min-height: height: 310px;
+        height: 240px;
         width: 100%!important;
+    }
+    .are-st {
+    margin-top: 26px;
     }
     .hee {
         left: 115px;
@@ -206,7 +209,7 @@
     .right-set .txt-set {
         width: 100%;
         left: 67px;
-        top: 8px;
+        top: 4px;
     }
     .content-set {
         background: none;
@@ -724,6 +727,9 @@ font-size: 22px;
   .beleive .we-txt {
     margin: -12px 0;
   }
+  /*.are-st {
+    margin-top: 20px;
+}*/
   /*.beleive .we-txts h4.circle4 {
     font-size: 11px;
   }*/
