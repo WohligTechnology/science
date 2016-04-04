@@ -21,8 +21,12 @@ function hideAll() {
   $(".section.contacts").hide();
   $(".section.who").hide();
 
-
-  $("#close-button5").trigger("click");
+  var isMenuOn = $("body").hasClass("show-menu");
+  console.log(isMenuOn);
+  if(isMenuOn)
+  {
+    $("#close-button5").trigger("click");
+  }
 
 }
 
