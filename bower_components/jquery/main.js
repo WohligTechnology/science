@@ -11,15 +11,19 @@ $(window).load(function() {
 
 
 function hideAll() {
-  $(".homes").hide();
-  $(".webl").hide();
-  $(".stlarn").hide();
-  $(".pros").hide();
-  $(".curriculums").hide();
-  $(".labs").hide();
-  $(".stori").hide();
-  $(".contacts").hide();
-  $(".who").hide();
+  $(".section.homes").hide();
+  $(".section.webl").hide();
+  $(".section.stlarn").hide();
+  $(".section.pros").hide();
+  $(".section.curriculums").hide();
+  $(".section.labs").hide();
+  $(".section.stori").hide();
+  $(".section.contacts").hide();
+  $(".section.who").hide();
+
+
+  $("#close-button5").trigger("click");
+
 }
 
 $(document).ready(function() {
@@ -169,52 +173,52 @@ $(document).ready(function() {
   $("a.whoweare").click(function() {
 
     hideAll();
-    $(".who").fadeIn(800);
+    $(".section.who").fadeIn(800);
 
   });
 
   $("a.webels").click(function() {
     hideAll();
 
-    $(".webl").fadeIn(800);
+    $(".section.webl").fadeIn(800);
 
   });
 
   $("a.student").click(function() {
     hideAll();
 
-    $(".stlarn").fadeIn(800);
+    $(".section.stlarn").fadeIn(800);
 
   });
 
   $("a.pro").click(function() {
     hideAll();
-    $(".pros").fadeIn(800);
+    $(".section.pros").fadeIn(800);
 
   });
 
   $("a.curriculum").click(function() {
     console.log("Curriculum is Also Clicked");
     hideAll();
-    $(".curriculum").fadeIn(800);
+    $(".section.curriculum").fadeIn(800);
 
   });
 
   $("a.lab").click(function() {
     hideAll();
-    $(".lab").fadeIn(800);
+    $(".section.lab").fadeIn(800);
 
   });
 
   $("a.stories").click(function() {
     hideAll();
-    $(".stori").fadeIn(800);
+    $(".section.stori").fadeIn(800);
 
   });
 
   $("a.contact").click(function() {
     hideAll();
-    $(".contact").fadeIn(800);
+    $(".section.contact").fadeIn(800);
 
   });
 
@@ -223,7 +227,7 @@ $(document).ready(function() {
   $(".ups").click(function() {
 
     hideAll();
-    $(".homes").fadeIn(800);
+    $(".section.homes").fadeIn(800);
 
   });
 
