@@ -23,8 +23,7 @@ function hideAll() {
 
   var isMenuOn = $("body").hasClass("show-menu");
   console.log(isMenuOn);
-  if(isMenuOn)
-  {
+  if (isMenuOn) {
     $("#close-button5").trigger("click");
   }
 
@@ -369,6 +368,14 @@ $(document).ready(function() {
   });
 
   $.getJSON(apiurl + "getallstories", function(data) {
+
+    if (data.length > 0) {
+      $(".storiesContent").show();
+      $(".noStoriesContent").hide();
+    } else {
+      $(".storiesContent").hide();
+      $(".noStoriesContent").show();
+    }
     allstories = data;
     addtostories(data);
     console.log(data);
