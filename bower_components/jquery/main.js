@@ -368,7 +368,7 @@ $(document).ready(function() {
   });
 
   $.getJSON(apiurl + "getallstories", function(data) {
-
+    // data =[];
     if (data.length > 0) {
       $(".storiesContent").show();
       $(".noStoriesContent").hide();

@@ -907,7 +907,13 @@ img.hello {
   margin: 28px 20px 0px 20px;
 }
 .cl-right2 {
-  margin: -138px 50px 0px 10px;
+    margin: -169px 68px 0 10px;
+    width:76%;
+}
+.noStoriesContent {
+    color: #291F6C;
+    margin-top: 10%;
+    font-family: trashhand;
 }
 .ups {
   position: relative;
@@ -942,7 +948,7 @@ img.hello {
   left: 7px;
 }
 .curriculums .img-curri img {
-  width: 75%;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -961,6 +967,7 @@ img.hello {
 .curriculums .img-mkcurri {
   position: relative;
   width: 100%;
+  top: -15px;
   bottom: 32px;
 }
 .we-lf {
