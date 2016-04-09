@@ -1361,12 +1361,12 @@ as much as we enjoy doing it!
         <div class="stu-det1 text-center">
           <h2 class="text-uppercase">We will be happy to help you!</h2>
           <div>
-            <form name="enquiry">
+                      <form name="test" onsubmit="myfunction()">
                 <div class="form-group">
                   <div class="row">
                   <label for="exampleInputName1" class="col-md-3 col-sm-3  lcolor">Name</label>
                   <div class="col-md-7 col-sm-7 padd">
-                    <input name="name" required ng-model="userForm.name" type="text" class="form-control" id="exampleInputName1" placeholder="Enter Name">
+                    <input name="name" required type="text" class="form-control" id="name" placeholder="Enter Name">
                   </div>
                   <!-- <div class="error-msg" ng-show="suggestUser.name.$error.required && suggestUser.name.$touched">Please Enter Your Name.
                 </div> -->
@@ -1376,7 +1376,7 @@ as much as we enjoy doing it!
                   <div class="row">
                   <label for="exampleInputName2" class="col-md-3 col-sm-3 lcolor">Email</label>
                   <div class="col-md-7 col-sm-7  padd">
-                    <input name="email" required ng-model="userForm.email" type="email" class="form-control" id="exampleInputName2" placeholder="Enter Email Address">
+                    <input name="email" required  type="email" class="form-control" id="email" placeholder="Enter Email Address">
                   </div>
 
                   <!-- <div class="error-msg" ng-show="suggestUser.email.$error.required && suggestUser.email.$touched">Please Enter Email id.
@@ -1387,7 +1387,7 @@ as much as we enjoy doing it!
                   <div class="row">
                   <label for="exampleInputName3" class="col-md-3 col-sm-3 lcolor">Contact No.</label>
                   <div class="col-md-7 col-sm-7 padd">
-                    <input name="contact" required ng-model="userForm.contact" type="tel" maxlength="13" class="form-control" id="exampleInputName3" placeholder="Enter Contact number.">
+                    <input autocomplete="off" name="contact" onkeypress="return isNumberKey(event)" required  type="tel" minlength="8" maxlength="13" class="form-control" id="cont" placeholder="Enter Contact number.">
                   </div>
                   <!-- <div class="error-msg" ng-show="suggestUser.contact.$error.required && user.contact.$touched">Please Enter Contact.
                         </div> -->
@@ -1397,7 +1397,7 @@ as much as we enjoy doing it!
                   <div class="row">
                   <label for="exampleInputName4" class="col-md-3 col-sm-3 lcolor">Enquiry</label>
                   <div class="col-md-7 col-sm-7 padd">
-                    <textarea name="query" required ng-model="userForm.query" id="exampleInputName4" class="form-control" style="height:100px;resize: none;"></textarea>
+                    <textarea name="query" required  id="query" class="form-control" style="height:100px;resize: none;"></textarea>
                   </div>
                   <!-- <div class="error-msg" ng-show="suggestUser.query.$error.required && user.query.$touched">Please Enter Query.
                       </div> -->
@@ -1407,7 +1407,8 @@ as much as we enjoy doing it!
                 <div class="col-xs-10" style="float:left">
 
                   <div class="pull-right" style="margin-right: -17px;">
-                    <button class="btn btn-default btn-sm" ng-class="{'disabled' : !enquiry.$valid }" ng-click="SubmitForm()">Submit</button>
+                    <button class="btn btn-default btn-sm">Submit</button>
+
                   </div>
 
               </div>
@@ -1417,7 +1418,55 @@ as much as we enjoy doing it!
       </div>
     </div>
 
+<script>
+function myfunction()
+{
+// alert("my function");
+// $.ajax({ url: 'http://localhost/reniscience/index.php/json/contactSubmit',
+//          data: {name: 'test'},
+//          type: 'post',
+//          success: function(output) {
+//                       alert(output);
+//                   }
+// });
 
+var email_address = $("#email").val();
+  var contact =  $("#cont").val();
+  var name =  $("#name").val();
+  var enquiry =  $("#query").val();
+
+  var postData = {
+    'email' : email_address,
+    'name' : name,
+    'contact' : contact,
+    'enquiry' : enquiry,
+    'html' : 'PASS'
+  };
+
+  $.post('http://localhost/reniscience/index.php/json/contactSubmit', postData, function(data){
+
+
+      if (data == 'PASS') {
+        alert("success");
+        window.location.href="http://wohlig.co.in/science/";
+
+      }
+       else {
+
+      }
+  });
+}
+
+function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : evt.keyCode;
+         if (charCode != 46 && charCode > 31
+           && (charCode < 48 || charCode > 57))
+            return false;
+
+         return true;
+      }
+</script>
 
   <div class="text-center ups" style="position: fixed;bottom: 33px;width: 100%; z-index: 9999;">
     <a href="#/"><img src="bower_components/img/up.png">
