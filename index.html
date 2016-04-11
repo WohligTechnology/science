@@ -1443,12 +1443,11 @@ var email_address = $("#email").val();
     'html' : 'PASS'
   };
 
-  $.post('http://localhost/reniscience/index.php/json/contactSubmit', postData, function(data){
-
+  $.post('http://wohlig.co.in/science/admin/index.php/json/contactSubmit', postData, function(data){
 
       if (data == 'PASS') {
         alert("success");
-        window.location.href="http://wohlig.co.in/science/";
+        // window.location.href="http://wohlig.co.in/science/";
 
       }
        else {
