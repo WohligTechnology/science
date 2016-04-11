@@ -1421,15 +1421,6 @@ as much as we enjoy doing it!
 <script>
 function myfunction()
 {
-// alert("my function");
-// $.ajax({ url: 'http://localhost/reniscience/index.php/json/contactSubmit',
-//          data: {name: 'test'},
-//          type: 'post',
-//          success: function(output) {
-//                       alert(output);
-//                   }
-// });
-
 var email_address = $("#email").val();
   var contact =  $("#cont").val();
   var name =  $("#name").val();
@@ -1443,7 +1434,7 @@ var email_address = $("#email").val();
     'html' : 'PASS'
   };
 
-  $.post('http://wohlig.co.in/science/admin/index.php/json/contactSubmit', postData, function(data){
+  $.post('http://wohlig.co.in/reniscience/index.php/json/contactSubmit', postData, function(data){
 
       if (data == 'PASS') {
         alert("success");
