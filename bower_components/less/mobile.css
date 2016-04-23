@@ -1,5 +1,9 @@
 
 @media only screen and (min-width: 990px) and (max-width: 1200px) {
+  .allresp{
+    width:1250px;
+    overflow-x: scroll;
+  }
     .lab-left .lab-title {
         top: 75px !important;
         font-size: 90px !important;
