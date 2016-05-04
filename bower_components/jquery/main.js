@@ -174,7 +174,7 @@ $(document).ready(function() {
 
 
   $("a.whoweare").click(function() {
-
+console.log("called");
     hideAll();
     $(".section.who").fadeIn(800);
 
