@@ -1,4 +1,4 @@
-var adminurl = "http://192.168.1.133/reniscience/";
+var adminurl = "http://192.168.1.137/reniscience/";
 // var adminurl = "http://wohlig.co.in/science/admin/";
 var apiurl = adminurl + "index.php/json/";
 
@@ -369,7 +369,7 @@ console.log("called");
   });
 
   $.getJSON(apiurl + "getallstories", function(data) {
-  //  data =[];
+    // data =[];
     if (data.length > 0) {
       $(".storiesContent").show();
       $(".noStoriesContent").hide();
