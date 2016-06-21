@@ -328,8 +328,8 @@ console.log("called");
 
   function addimageslider(src) {
     var src2 = "";
-    if (src && src !== "" && src.image !== "" && src.image) {
-      src2 = '<li class="js_slide" style="text-align:center;width: auto;height: 312px;"><img style="text-align:center;width: auto;height: 312px;" src="' + adminurl + "uploads/" + src.image + '"><p>' + src.bottomtext + '</p></li>';
+    if (src && src !== "") {
+      src2 = '<li class="js_slide" style="text-align:center;width: auto;height: 312px;"><img style="text-align:center;width: auto;height: 312px;" src="' + adminurl + "uploads/" + src + '"></li>';
     }
     return src2;
   }
@@ -350,6 +350,7 @@ console.log("called");
         rewind: true
       });
     });
+    $(window).scrollTop(0);
   }
 
   function createstorydetailfromid(storyid) {
